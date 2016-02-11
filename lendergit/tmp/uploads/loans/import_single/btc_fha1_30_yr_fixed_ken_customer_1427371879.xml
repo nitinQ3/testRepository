@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LOAN_APPLICATION>
+<_DATA_INFORMATION>
+<DATA_VERSION _Name="Date" _Number="20100512"/>
+<DATA_VERSION _Name="1003" _Number="3.20"/>
+</_DATA_INFORMATION>
+<ADDITIONAL_CASE_DATA>
+<TRANSMITTAL_DATA BuydownRatePercent="0.000" CurrentFirstMortgageHolderType="Unknown" PropertyAppraisedValueAmount="285000.00" InvestorLoanIdentifier="" InvestorInstitutionIdentifier="" LoanOriginatorID="123456789012" LoanOriginationCompanyID="123456789111"/>
+</ADDITIONAL_CASE_DATA>
+<ASSET _CashOrMarketValueAmount="10000.00" _Type="EarnestMoneyCashDepositTowardPurchase" _HolderName="ABC Realty" _HolderStreetAddress="3700 Connecticut St" _HolderCity="Burbank" _HolderState="CA" _HolderPostalCode="91502" OtherAssetTypeDescription="Earnest Money Deposit" BorrowerID="Borr500507000"/>
+<ASSET _AccountIdentifier="123456" _CashOrMarketValueAmount="12000.00" _Type="CheckingAccount" _HolderName="Bank of Noosh" _HolderStreetAddress="15096 Sunnyside St" _HolderCity="Burbank" _HolderState="CA" _HolderPostalCode="91502" OtherAssetTypeDescription="Checking" BorrowerID="Borr500507000"/>
+<ASSET _AccountIdentifier="1234567" _CashOrMarketValueAmount="100000.00" _Type="CertificateOfDepositTimeDeposit" _HolderName="Bank of Noosh" _HolderStreetAddress="15096 Sunnyside St" _HolderCity="Burbank" _HolderState="CA" _HolderPostalCode="91502" OtherAssetTypeDescription="30-Day CD" BorrowerID="Borr500507000"/>
+<GOVERNMENT_LOAN>
+<FHA_LOAN FHA_MIPremiumRefundAmount="0.00" SectionOfActType="203B" _LenderIdentifier="999999999"/>
+<FHA_VA_LOAN GovernmentMortgageCreditCertificateAmount="0.00"/>
+</GOVERNMENT_LOAN>
+<GOVERNMENT_REPORTING HMDA_HOEPALoanStatusIndicator="N" HMDAPreapprovalType="PreapprovalWasNotRequested"/>
+<INTERVIEWER_INFORMATION InterviewersEmployerStreetAddress="412 H St, NW" InterviewersEmployerCity="Washington" InterviewersEmployerState="DC" InterviewersEmployerPostalCode="200121234" InterviewersTelephoneNumber="2023333333" ApplicationTakenMethodType="FaceToFace" InterviewerApplicationSignedDate="20110901" InterviewersEmployerName="ABC Mortgage" InterviewersName="John Done"/>
+<LIABILITY _ID="Liab1" BorrowerID="Borr500507000" _AccountIdentifier="98E543184026" _ExclusionIndicator="N" _HolderName="HEMLOCKS" _MonthlyPaymentAmount="44.00" _PayoffStatusIndicator="N" _RemainingTermMonths="10" _Type="Revolving" _UnpaidBalanceAmount="437.00" SubjectLoanResubordinationIndicator="N" FNMSubjectPropertyIndicator="N" FNMRentalPropertyIndicator="N"/>
+<LIABILITY _ID="Liab2" BorrowerID="Borr500507000" _AccountIdentifier="291443C81189" _ExclusionIndicator="N" _HolderName="HILLSIDE BANK" _MonthlyPaymentAmount="425.00" _PayoffStatusIndicator="N" _RemainingTermMonths="35" _Type="Installment" _UnpaidBalanceAmount="14748.00" SubjectLoanResubordinationIndicator="N" FNMSubjectPropertyIndicator="N" FNMRentalPropertyIndicator="N"/>
+<LOAN_PRODUCT_DATA>
+<LOAN_FEATURES EscrowWaiverIndicator="N" GSEProjectClassificationType="GNotInaProjectOrDevelopment" GSEPropertyType="Attached" LienPriorityType="FirstLien" LoanRepaymentType="NoNegativeAmortization" PaymentFrequencyType="Monthly"/>
+</LOAN_PRODUCT_DATA>
+<LOAN_PURPOSE _Type="Purchase" PropertyRightsType="FeeSimple" PropertyUsageType="PrimaryResidence">
+<CONSTRUCTION_REFINANCE_DATA RefinanceImprovementsType="Unknown"/>
+</LOAN_PURPOSE>
+<LOAN_QUALIFICATION AdditionalBorrowerAssetsNotConsideredIndicator="N" AdditionalBorrowerAssetsConsideredIndicator="N"/>
+<MORTGAGE_TERMS BaseLoanAmount="250000.00" LenderCaseIdentifier="BTC-FHA1" LoanAmortizationTermMonths="360" LoanAmortizationType="Fixed" MortgageType="FHA" RequestedInterestRatePercent="5.250"/>
+<PROPERTY _StreetAddress="10655 Birch St" _City="Burbank" _State="CA" _County="LOS ANGELES" _PostalCode="915021234" _FinancedNumberOfUnits="1">
+<_LEGAL_DESCRIPTION _Type="Other"/>
+<PARSED_STREET_ADDRESS _HouseNumber="10655" _StreetName="Birch St"/>
+<_VALUATION _MethodType="FNM1004">
+<APPRAISER _Name="Sam Appraiser" _CompanyName="Appraisers Inc" _LicenseIdentifier="123456789111111" _LicenseState="DC" _SupervisoryAppraiserLicenseNumber="123456789abcdefghijkl"/>
+</_VALUATION>
+</PROPERTY>
+<PROPOSED_HOUSING_EXPENSE HousingExpenseType="FirstMortgagePrincipalAndInterest" _PaymentAmount="1417.78"/>
+<PROPOSED_HOUSING_EXPENSE HousingExpenseType="OtherMortgageLoanPrincipalAndInterest"/>
+<PROPOSED_HOUSING_EXPENSE HousingExpenseType="HazardInsurance" _PaymentAmount="75.00"/>
+<PROPOSED_HOUSING_EXPENSE HousingExpenseType="RealEstateTax" _PaymentAmount="165.00"/>
+<PROPOSED_HOUSING_EXPENSE HousingExpenseType="MI" _PaymentAmount="50.00"/>
+<PROPOSED_HOUSING_EXPENSE HousingExpenseType="HomeownersAssociationDuesAndCondominiumFees" _PaymentAmount="365.00"/>
+<PROPOSED_HOUSING_EXPENSE HousingExpenseType="OtherHousingExpense" _PaymentAmount="100.00"/>
+<TRANSACTION_DETAIL AlterationsImprovementsAndRepairsAmount="0.00" BorrowerPaidDiscountPointsTotalAmount="0.00" EstimatedClosingCostsAmount="5000.00" MIAndFundingFeeFinancedAmount="6750.00" MIAndFundingFeeTotalAmount="6750.00" PrepaidItemsEstimatedAmount="750.00" PurchasePriceAmount="280000.00" RefinanceIncludingDebtsToBePaidOffAmount="0.00" SalesConcessionAmount="0.00" SellerPaidClosingCostsAmount="0.00" SubordinateLienAmount="0.00" FNMCostOfLandAcquiredSeparatelyAmount="0.00">
+<PURCHASE_CREDIT _Amount="10000.00" _Type="EarnestMoney"/>
+</TRANSACTION_DETAIL>
+<BORROWER BorrowerID="Borr500507000" _FirstName="Ken" _MiddleName="N" _LastName="Customer" _NameSuffix="JR" _ApplicationSignedDate="20080312" _BirthDate="19600704" _HomeTelephoneNumber="8182222222" _PrintPositionType="Borrower" _SSN="500507000" JointAssetLiabilityReportingType="NotJointly" MaritalStatusType="Unmarried">
+<_MAIL_TO _StreetAddress="10655 Birch St" _City="Burbank" _State="CA" _PostalCode="915021234" _Country="USA"/>
+<_RESIDENCE _StreetAddress="10655 Birch St" _City="Burbank" _State="CA" _PostalCode="915021234" BorrowerResidencyBasisType="Rent" BorrowerResidencyDurationMonths="7" BorrowerResidencyDurationYears="3" BorrowerResidencyType="Current"/>
+<CURRENT_INCOME IncomeType="Base" _MonthlyTotalAmount="10000.00"/>
+<CURRENT_INCOME IncomeType="Overtime" _MonthlyTotalAmount="1000.00"/>
+<CURRENT_INCOME IncomeType="Bonus" _MonthlyTotalAmount="750.00"/>
+<CURRENT_INCOME IncomeType="DividendsInterest" _MonthlyTotalAmount="1000.00"/>
+<CURRENT_INCOME IncomeType="NetRentalIncome" _MonthlyTotalAmount="0.00"/>
+<DECLARATION AlimonyChildSupportObligationIndicator="N" BankruptcyIndicator="N" BorrowedDownPaymentIndicator="N" CitizenshipResidencyType="USCitizen" CoMakerEndorserOfNoteIndicator="N" HomeownerPastThreeYearsType="No" IntentToOccupyType="Yes" LoanForeclosureOrJudgementIndicator="N" OutstandingJudgementsIndicator="N" PartyToLawsuitIndicator="N" PresentlyDelinquentIndicator="N" PropertyForeclosedPastSevenYearsIndicator="N"/>
+<EMPLOYER _Name="National Consulting" _StreetAddress="1236 Main St" _City="Burbank" _State="CA" _PostalCode="915021234" _TelephoneNumber="8183323332" CurrentEmploymentMonthsOnJob="5" CurrentEmploymentTimeInLineOfWorkYears="21" CurrentEmploymentYearsOnJob="15" EmploymentBorrowerSelfEmployedIndicator="N" EmploymentCurrentIndicator="Y" EmploymentPositionDescription="Consultant" EmploymentPrimaryIndicator="Y"/>
+<FHA_VA_BORROWER FNMBankruptcyCount="0" FNMBorrowerCreditRating="0" FirstTimeHomebuyerCounselType="HUDApprovedCounselingAgency" FNMForeclosureCount="0"/>
+<GOVERNMENT_MONITORING GenderType="Male" RaceNationalOriginRefusalIndicator="N" HMDAEthnicityType="HispanicOrLatino">
+<HMDA_RACE _Type="BlackOrAfricanAmerican"/>
+</GOVERNMENT_MONITORING>
+<PRESENT_HOUSING_EXPENSE HousingExpenseType="Rent" _PaymentAmount="3500.00"/>
+<PRESENT_HOUSING_EXPENSE HousingExpenseType="FirstMortgagePrincipalAndInterest"/>
+<PRESENT_HOUSING_EXPENSE HousingExpenseType="OtherMortgageLoanPrincipalAndInterest"/>
+<PRESENT_HOUSING_EXPENSE HousingExpenseType="HazardInsurance"/>
+<PRESENT_HOUSING_EXPENSE HousingExpenseType="RealEstateTax"/>
+<PRESENT_HOUSING_EXPENSE HousingExpenseType="MI"/>
+<PRESENT_HOUSING_EXPENSE HousingExpenseType="HomeownersAssociationDuesAndCondominiumFees"/>
+<PRESENT_HOUSING_EXPENSE HousingExpenseType="OtherHousingExpense"/>
+<SUMMARY _Amount="0.00" _AmountType="UndrawnHELOC"/>
+<SUMMARY _Amount="0.00" _AmountType="IPCsExcessFinancingConcessionsOrSalesConcessionsAmount"/>
+<CONTACT_POINT _Type="Email" _Value="ken.c@fanniemae.com"/>
+</BORROWER>
+</LOAN_APPLICATION>

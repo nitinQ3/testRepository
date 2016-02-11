@@ -1,0 +1,999 @@
+7:31:58am:::1:array (
+  0 => 'PDO exec:',
+  1 => 
+  PDOStatement::__set_state(array(
+     'queryString' => 'SELECT id, client_id,vendor_ref_1 FROM orders WHERE id = ? ',
+  )),
+  2 => 
+  array (
+    0 => '8656',
+  ),
+  3 => 
+  array (
+    0 => '00000',
+    1 => NULL,
+    2 => NULL,
+  ),
+  4 => 
+  array (
+    'id' => '8656',
+    'client_id' => '1',
+    'vendor_ref_1' => '',
+  ),
+)
+7:31:58am:::1:array (
+  0 => 'PDO exec:',
+  1 => 
+  PDOStatement::__set_state(array(
+     'queryString' => 'SELECT id, client_id FROM users WHERE username = ?',
+  )),
+  2 => 
+  array (
+    0 => 'dsaini@q3tech.com',
+  ),
+  3 => 
+  array (
+    0 => '00000',
+    1 => NULL,
+    2 => NULL,
+  ),
+  4 => false,
+)
+7:31:58am:::1:array (
+  0 => 'PDO exec:',
+  1 => 
+  PDOStatement::__set_state(array(
+     'queryString' => ' select * from clients where id = ? ',
+  )),
+  2 => 
+  array (
+    0 => '1',
+  ),
+  3 => 
+  array (
+    0 => '00000',
+    1 => NULL,
+    2 => NULL,
+  ),
+  4 => 
+  array (
+    'id' => '1',
+    'client_id' => '0',
+    'client_service_center_id' => '1',
+    'client_name' => 'Lender Platform, LLC',
+    'client_identifier' => 'LPLLC',
+    'client_password' => 'childs',
+    'contact_id' => '1',
+    'billing_contact_id' => '41493',
+    'sales_rep_id' => '0',
+    'address_id' => '1',
+    'site_layout_id' => '1',
+    'flood_lender_id' => '0',
+    'return_url' => 'http://www.lenderplatform.com',
+    'is_reseller' => '1',
+    'can_set_pricing' => '1',
+    'bill_by_client_object' => '1',
+    'invoice_by_client_object' => '1',
+    'product_preference_enabled' => '1',
+    'phone' => '111111',
+    'phone2' => '2222222',
+    'default_payment_type_id' => '0',
+    'default_billing_message' => NULL,
+    'hmda_respondent_id' => NULL,
+    'tax_id' => '0',
+    'active' => '1',
+    'created' => '2012-12-12 00:00:00',
+    'modified' => '2014-10-15 06:08:14',
+  ),
+)
+7:31:58am:::1:array (
+  0 => 'PDO exec:',
+  1 => 
+  PDOStatement::__set_state(array(
+     'queryString' => 'SELECT contacts.* 
+             FROM  `users` 
+             INNER JOIN contacts ON contacts.id = users.contact_id              
+             WHERE users.id = ? Limit 1',
+  )),
+  2 => 
+  array (
+    0 => '1',
+  ),
+  3 => 
+  array (
+    0 => '00000',
+    1 => NULL,
+    2 => NULL,
+  ),
+  4 => 
+  array (
+    'id' => '3795',
+    'object_type_id' => '3',
+    'object_id' => '1',
+    'contact_type_id' => '0',
+    'first_name' => 'Systems',
+    'last_name' => 'Administrator',
+    'middle_name' => NULL,
+    'prefix' => NULL,
+    'suffix' => NULL,
+    'title' => 'President',
+    'company_name' => NULL,
+    'email' => 'owen@ealingsoftware.net',
+    'notification_email' => NULL,
+    'phone' => '512-000-1111',
+    'phone2' => '9999999999',
+    'address_id' => '42509',
+    'notes' => NULL,
+    'profile_ethnicity_id' => NULL,
+    'profile_race_id' => NULL,
+    'profile_sex_id' => NULL,
+    'income' => NULL,
+    'age' => '0',
+    'dob' => NULL,
+    'active' => '1',
+    'created' => '2013-05-16 06:13:05',
+    'modified' => '2013-10-10 00:23:44',
+  ),
+)
+7:31:58am:::1:array (
+  0 => 'PDO exec:',
+  1 => 
+  PDOStatement::__set_state(array(
+     'queryString' => ' select * from clients where id = ? ',
+  )),
+  2 => 
+  array (
+    0 => '1',
+  ),
+  3 => 
+  array (
+    0 => '00000',
+    1 => NULL,
+    2 => NULL,
+  ),
+  4 => 
+  array (
+    'id' => '1',
+    'client_id' => '0',
+    'client_service_center_id' => '1',
+    'client_name' => 'Lender Platform, LLC',
+    'client_identifier' => 'LPLLC',
+    'client_password' => 'childs',
+    'contact_id' => '1',
+    'billing_contact_id' => '41493',
+    'sales_rep_id' => '0',
+    'address_id' => '1',
+    'site_layout_id' => '1',
+    'flood_lender_id' => '0',
+    'return_url' => 'http://www.lenderplatform.com',
+    'is_reseller' => '1',
+    'can_set_pricing' => '1',
+    'bill_by_client_object' => '1',
+    'invoice_by_client_object' => '1',
+    'product_preference_enabled' => '1',
+    'phone' => '111111',
+    'phone2' => '2222222',
+    'default_payment_type_id' => '0',
+    'default_billing_message' => NULL,
+    'hmda_respondent_id' => NULL,
+    'tax_id' => '0',
+    'active' => '1',
+    'created' => '2012-12-12 00:00:00',
+    'modified' => '2014-10-15 06:08:14',
+  ),
+)
+7:31:58am:::1:array (
+  0 => 'PDO exec:',
+  1 => 
+  PDOStatement::__set_state(array(
+     'queryString' => ' select * from order_borrowers where order_id = ? and primary_borrower = ? and secondary_borrower = ? and active = 1 ',
+  )),
+  2 => 
+  array (
+    0 => '8656',
+    1 => 1,
+    2 => 0,
+  ),
+  3 => 
+  array (
+    0 => '00000',
+    1 => NULL,
+    2 => NULL,
+  ),
+  4 => 
+  array (
+    'id' => '1520',
+    'order_id' => '8656',
+    'contact_id' => '3642',
+    'primary_borrower' => '1',
+    'secondary_borrower' => '0',
+    'active' => '1',
+    'created' => '2013-05-06 08:45:46',
+    'modified' => '2013-05-06 08:45:46',
+  ),
+)
+7:31:58am:::1:array (
+  0 => 'PDO exec:',
+  1 => 
+  PDOStatement::__set_state(array(
+     'queryString' => ' select * from contacts where id = ? ',
+  )),
+  2 => 
+  array (
+    0 => '3642',
+  ),
+  3 => 
+  array (
+    0 => '00000',
+    1 => NULL,
+    2 => NULL,
+  ),
+  4 => 
+  array (
+    'id' => '3642',
+    'object_type_id' => '11',
+    'object_id' => '8656',
+    'contact_type_id' => '0',
+    'first_name' => 'James',
+    'last_name' => 'Hudson',
+    'middle_name' => '',
+    'prefix' => NULL,
+    'suffix' => NULL,
+    'title' => NULL,
+    'company_name' => NULL,
+    'email' => 'tiny_2000@hotmail.com',
+    'notification_email' => NULL,
+    'phone' => NULL,
+    'phone2' => '(512) 673-6943 ',
+    'address_id' => '3340',
+    'notes' => NULL,
+    'profile_ethnicity_id' => NULL,
+    'profile_race_id' => NULL,
+    'profile_sex_id' => NULL,
+    'income' => NULL,
+    'age' => '0',
+    'dob' => NULL,
+    'active' => '1',
+    'created' => '2013-05-06 08:45:46',
+    'modified' => '2013-05-06 08:45:46',
+  ),
+)
+7:31:58am:::1:array (
+  0 => 'PDO exec:',
+  1 => 
+  PDOStatement::__set_state(array(
+     'queryString' => ' select * from site_layouts where id = ?  ',
+  )),
+  2 => 
+  array (
+    0 => '1',
+  ),
+  3 => 
+  array (
+    0 => '00000',
+    1 => NULL,
+    2 => NULL,
+  ),
+  4 => 
+  array (
+    'id' => '1',
+    'layout_name' => 'Lender Platform, LLC (Red)',
+    'logo_url' => 'https://lp-files-dev.s3.amazonaws.com/layouts/1/1/logo_1386743633.png',
+    'favicon_url' => 'https://lp-files-dev.s3.amazonaws.com/layouts/1/1/favicon_1376186580.ico',
+    'background_color' => '#ED1C25',
+    'primary_color' => '#f21111',
+    'link_color' => '#127beb',
+    'page_width_type' => '1',
+    'page_width_value' => '0',
+    'application_name' => 'Lender Platform, LLC',
+    'custom_css' => 'body {
+	background : url(\'/img/lenderplatform_custom_background.jpg\') no-repeat left top;
+}
+#wrapper {
+       margin-top: 20px;
+}',
+    'footer_notice' => 'Powered by Lender Platform, LLC',
+    'copyright_notice' => '&copy;2013-2014 - Lender Platform',
+    'public_url' => 'dev.lenderplatform.com',
+    'homepage_html' => '<h1>Lender Platform&nbsp;</h1>
+								<table>
+<tbody><tr><td><a href="#" class="item"><img src="/img/icons/big/dashboard.png" alt="Dashboard"><span>Welcome</span>Landing Page</a>
+				</td><td>
+								Lender Platform is a place that 
+									allows financial lending institutions to order settlement service products from
+									a single secure website.<br>
+									<ul class="arrow">
+										<li><a href="#">Learn more about our products</a></li>
+								</ul>
+									
+		</td></tr><tr>			
+
+<td><a href="#" class="item"><img src="/img/icons/big/database.png" alt="Dashboard"><span>Secure</span>Cloud Storage</a>
+</td>
+			<td>
+							All your documents are stored in the cloud for easy access from anywhere you 
+									have an internet connection. Reduced data entry, no software to install.
+							<ul class="arrow">
+										<li><a href="#">See how it works</a></li>
+								</ul>
+									
+				</td></tr><tr>			
+							<td><a href="#" class="item"><img src="/img/icons/big/users.png" alt="Dashboard"><span>Save</span>Aggregate Pricing</a>
+		</td><td>
+								<p>One consolidated customer service center and a network of integrated vendors provides 
+									you with the best pricing on settlement services and products.
+									</p><ul class="arrow">
+										<li><a href="#">Register for an account today</a></li>
+									</ul>
+						</td></tr></tbody></table>
+',
+    'dashboard_html' => '<p>Welcome</p>',
+    'compliance_html' => '<div style="float:right;">
+<div style="text-align:center;">
+<div>
+<img src="https://s3.amazonaws.com/lp-files-live/public/forms/soc-sized.jpg" />
+</div>
+<div style="padding-top:40px;">
+<img src="https://s3.amazonaws.com/lp-files-live/public/forms/nbss_logo.png" />
+</div>
+<div style="padding-top:30px;">
+<img src="https://s3.amazonaws.com/lp-files-live/public/forms/logo_lenderplatform.png" />
+</div>
+<div style="padding-top:30px;">
+<a href="http://aws.amazon.com/what-is-cloud-computing"><img src="http://awsmedia.s3.amazonaws.com/AWS_Logo_PoweredBy_127px.png" alt="Powered by AWS Cloud Computing"></a>
+</div>
+</div>
+</div>
+<div style="width:573px;">
+<p style="text-align:center;"><img src="https://s3.amazonaws.com/lp-files-live/public/forms/logo_memberclose.png" /></p>
+<p>Re: <b>2015 SSAE 16</b></p>
+<p>Dear MemberClose Credit Union,</p>
+<p>A comprehensive Due Diligence Package for the MemberClose Platform is now complete and available for you to review. Each entity providing services to the MemberClose Platform will distribute the following information to any credit union wishing to receive this due diligence package: </p>
+<p>This SSAE 16 compliant due diligence package consists of:</p>
+<p style="padding:0 20px;">i. Service Organization (NBSS Global). (SOC) 1 (Type 1) Report with additional supporting Due Diligence documentation.</p>
+<p style="padding:0 20px;">ii. Technology (Lender Platform). (SOC) 1 (Type 1) Report.</p>
+<p style="padding:0 20px;">iii. Data Center (Amazon Web Services). (SOC) 2 (Type 2) Report.</p>
+<p><b>IMPORTANT:</b> Each of these reports contains confidential information. Any credit union that would like to view these reports must have management personnel sign a non-disclosure agreement (NDA) for each entity in order to have this information released. The links to access each entity\'s NDA as well as information on where to return the NDA after it has been signed can be found below.</p>
+<br />
+<p style="padding:0 20px;">&bull;&nbsp;&nbsp;National Bundled Settlement Solutions (NBSS): <a href="https://s3.amazonaws.com/lp-files-live/public/forms/NBSS-Mutual_NDA_2015.pdf" target="_blank">click here for NBSS Mutual NDA</a> and <a href="https://s3.amazonaws.com/lp-files-live/public/forms/NBSS-SSAE16-REPORT-NDA-2015.pdf" target="_blank">NBSS SSAE 16 Report NDA</a> (2 files).<br />&nbsp;</p>
+<p style="padding:0 20px;">&bull;&nbsp;&nbsp;Lender Platform (LP): <a href="https://s3.amazonaws.com/lp-files-live/public/forms/NDA-Nondisclosure-Agreement-LP.pdf" target="_blank">click here for LP NDA</a>.<br />&nbsp;</p>
+<p style="padding:0 20px;">&bull;&nbsp;&nbsp;Amazon Web Services (AWS): <a href="https://s3.amazonaws.com/lp-files-live/public/forms/AWS-US-FORM-Customer-NDA.pdf" target="_blank">click here for Amazon NDA</a>.<br />&nbsp;</p>
+<p>Once signed, please scan and email to NBSS at <a href="mailto:compliance@nbssdirect.com?subject=SSAE16">compliance@nbssdirect.com</a></p>
+<p>The due diligence package is an ongoing process that includes annually updated SOC1 Type 2 reports by an independent third party auditor. A security compliance email list will be used to distribute compliance and security information updates to the relevant authorized persons within your organization. If you would like to add people to this list, please contact <a href="tony@nbssglobal.com">tony@nbssglobal.com</a>.
+If you have any questions regarding the due diligence packages, or require further information about MemberClose, please contact us at <a href="MemberClose@CUCenter.org">MemberClose@CUCenter.org</a>.</p>
+<p>Sincerely,</p>
+<br>
+<p>MemberClose</p>
+</div>',
+    'custom_js' => '  (function(i,s,o,g,r,a,m){i[\'GoogleAnalyticsObject\']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,\'script\',\'//www.google-analytics.com/analytics.js\',\'ga\');
+
+  ga(\'create\', \'UA-47824140-1\', \'lenderplatform.com\');
+  ga(\'send\', \'pageview\');
+
+/***  Start of Zopim Live Chat Script **/
+
+window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
+d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
+_.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute(\'charset\',\'utf-8\');
+$.src=\'//v2.zopim.com/?2Q7Ji685RJsaCtNegfrbOwABvGoig61F\';z.t=+new Date;$.
+type=\'text/javascript\';e.parentNode.insertBefore($,e)})(document,\'script\');
+
+$zopim(function() {
+  var user_name = $("#id_user").text();
+  var user_email =  $("#id_email").text();
+  var user_client =  $("#id_client").text();
+  $zopim.livechat.setName(user_name);
+  $zopim.livechat.setEmail(user_email);
+  $zopim.livechat.addTags(user_client);
+});
+
+/*** End of Zopim Live Chat Script ***/',
+    'client_id' => '1',
+    'created' => '2012-12-12 00:00:00',
+    'modified' => '2015-02-25 07:43:22',
+  ),
+)
+7:31:58am:::1:array (
+  0 => 'Sending Email To:',
+  1 => 'owen@ealingsoftware.net',
+  2 => 'Cc:',
+  3 => 
+  array (
+  ),
+  4 => 'From:',
+  5 => 'Orders <orders@lenderplatform.com>',
+)
+7:31:58am:::1:array (
+  0 => 'Client Receipt Email Object contains',
+  1 => 
+  SimpleEmailServiceMessage::__set_state(array(
+     'to' => 
+    array (
+      0 => 'owen@ealingsoftware.net',
+    ),
+     'cc' => 
+    array (
+    ),
+     'bcc' => 
+    array (
+    ),
+     'replyto' => 
+    array (
+    ),
+     'from' => 'Orders <orders@lenderplatform.com>',
+     'returnpath' => NULL,
+     'subject' => NULL,
+     'messagetext' => '<html><head><title>NOTE ADDED - (8656) - James Hudson</title></head><body><p><b>This is an automated notification.  Please use link below to respond.</b></p><p>Vendor #: <b>---</b></p><p>Order notification/update sent.<br><font size="4"></font></p><p>Click link to view order details:<br><a href=\'http://dev.lenderplatform.com/orders/view/8656\'>http://dev.lenderplatform.com/orders/view/8656</a><p>Thanks!</p><p>Instructions:<br>- You can click on the link above to go directly to this order.<br>- If you have forgotten your username and/or password see the following password reset link:<br><a href=\'http://dev.lenderplatform.com/password\'>http://dev.lenderplatform.com/password</a></body></html>',
+     'messagehtml' => '<html><head><title>NOTE ADDED - (8656) - James Hudson</title></head><body><p><b>This is an automated notification.  Please use link below to respond.</b></p><p>Vendor #: <b>---</b></p><p>Order notification/update sent.<br><font size="4"></font></p><p>Click link to view order details:<br><a href=\'http://dev.lenderplatform.com/orders/view/8656\'>http://dev.lenderplatform.com/orders/view/8656</a><p>Thanks!</p><p>Instructions:<br>- You can click on the link above to go directly to this order.<br>- If you have forgotten your username and/or password see the following password reset link:<br><a href=\'http://dev.lenderplatform.com/password\'>http://dev.lenderplatform.com/password</a></body></html>',
+     'subjectCharset' => NULL,
+     'messageTextCharset' => NULL,
+     'messageHtmlCharset' => NULL,
+  )),
+)
+7:31:59am:::1:array (
+  0 => 'PDO exec:',
+  1 => 
+  PDOStatement::__set_state(array(
+     'queryString' => 'SELECT id, client_id,vendor_ref_1 FROM orders WHERE id = ? ',
+  )),
+  2 => 
+  array (
+    0 => '8655',
+  ),
+  3 => 
+  array (
+    0 => '00000',
+    1 => NULL,
+    2 => NULL,
+  ),
+  4 => 
+  array (
+    'id' => '8655',
+    'client_id' => '4',
+    'vendor_ref_1' => '',
+  ),
+)
+7:31:59am:::1:array (
+  0 => 'PDO exec:',
+  1 => 
+  PDOStatement::__set_state(array(
+     'queryString' => 'SELECT id, client_id FROM users WHERE username = ?',
+  )),
+  2 => 
+  array (
+    0 => 'dsaini@q3tech.com',
+  ),
+  3 => 
+  array (
+    0 => '00000',
+    1 => NULL,
+    2 => NULL,
+  ),
+  4 => false,
+)
+7:31:59am:::1:array (
+  0 => 'PDO exec:',
+  1 => 
+  PDOStatement::__set_state(array(
+     'queryString' => ' select * from clients where id = ? ',
+  )),
+  2 => 
+  array (
+    0 => '4',
+  ),
+  3 => 
+  array (
+    0 => '00000',
+    1 => NULL,
+    2 => NULL,
+  ),
+  4 => 
+  array (
+    'id' => '4',
+    'client_id' => '165',
+    'client_service_center_id' => '81',
+    'client_name' => 'Member Close',
+    'client_identifier' => 'MC1',
+    'client_password' => 'myth',
+    'contact_id' => '29',
+    'billing_contact_id' => '1104',
+    'sales_rep_id' => '81',
+    'address_id' => '23',
+    'site_layout_id' => '4',
+    'flood_lender_id' => '0',
+    'return_url' => 'http://www.memberclose.com',
+    'is_reseller' => '1',
+    'can_set_pricing' => '1',
+    'bill_by_client_object' => NULL,
+    'invoice_by_client_object' => NULL,
+    'product_preference_enabled' => '1',
+    'phone' => '',
+    'phone2' => '',
+    'default_payment_type_id' => '0',
+    'default_billing_message' => NULL,
+    'hmda_respondent_id' => NULL,
+    'tax_id' => '0',
+    'active' => '1',
+    'created' => '2012-12-12 00:00:00',
+    'modified' => '2015-04-03 15:32:06',
+  ),
+)
+7:31:59am:::1:array (
+  0 => 'PDO exec:',
+  1 => 
+  PDOStatement::__set_state(array(
+     'queryString' => 'SELECT contacts.* 
+             FROM  `users` 
+             INNER JOIN contacts ON contacts.id = users.contact_id              
+             WHERE users.id = ? Limit 1',
+  )),
+  2 => 
+  array (
+    0 => '81',
+  ),
+  3 => 
+  array (
+    0 => '00000',
+    1 => NULL,
+    2 => NULL,
+  ),
+  4 => 
+  array (
+    'id' => '41627',
+    'object_type_id' => '3',
+    'object_id' => '81',
+    'contact_type_id' => '0',
+    'first_name' => 'Van',
+    'last_name' => 'Hill',
+    'middle_name' => NULL,
+    'prefix' => NULL,
+    'suffix' => NULL,
+    'title' => 'National Sales',
+    'company_name' => NULL,
+    'email' => 'van@nbssllc.com',
+    'notification_email' => '',
+    'phone' => '512-686-4600',
+    'phone2' => '',
+    'address_id' => '42687',
+    'notes' => NULL,
+    'profile_ethnicity_id' => NULL,
+    'profile_race_id' => NULL,
+    'profile_sex_id' => NULL,
+    'income' => NULL,
+    'age' => '0',
+    'dob' => NULL,
+    'active' => '1',
+    'created' => '2013-10-22 09:41:18',
+    'modified' => '2014-03-28 17:29:23',
+  ),
+)
+7:31:59am:::1:array (
+  0 => 'PDO exec:',
+  1 => 
+  PDOStatement::__set_state(array(
+     'queryString' => ' select * from clients where id = ? ',
+  )),
+  2 => 
+  array (
+    0 => '4',
+  ),
+  3 => 
+  array (
+    0 => '00000',
+    1 => NULL,
+    2 => NULL,
+  ),
+  4 => 
+  array (
+    'id' => '4',
+    'client_id' => '165',
+    'client_service_center_id' => '81',
+    'client_name' => 'Member Close',
+    'client_identifier' => 'MC1',
+    'client_password' => 'myth',
+    'contact_id' => '29',
+    'billing_contact_id' => '1104',
+    'sales_rep_id' => '81',
+    'address_id' => '23',
+    'site_layout_id' => '4',
+    'flood_lender_id' => '0',
+    'return_url' => 'http://www.memberclose.com',
+    'is_reseller' => '1',
+    'can_set_pricing' => '1',
+    'bill_by_client_object' => NULL,
+    'invoice_by_client_object' => NULL,
+    'product_preference_enabled' => '1',
+    'phone' => '',
+    'phone2' => '',
+    'default_payment_type_id' => '0',
+    'default_billing_message' => NULL,
+    'hmda_respondent_id' => NULL,
+    'tax_id' => '0',
+    'active' => '1',
+    'created' => '2012-12-12 00:00:00',
+    'modified' => '2015-04-03 15:32:06',
+  ),
+)
+7:31:59am:::1:array (
+  0 => 'PDO exec:',
+  1 => 
+  PDOStatement::__set_state(array(
+     'queryString' => ' select * from order_borrowers where order_id = ? and primary_borrower = ? and secondary_borrower = ? and active = 1 ',
+  )),
+  2 => 
+  array (
+    0 => '8655',
+    1 => 1,
+    2 => 0,
+  ),
+  3 => 
+  array (
+    0 => '00000',
+    1 => NULL,
+    2 => NULL,
+  ),
+  4 => 
+  array (
+    'id' => '1519',
+    'order_id' => '8655',
+    'contact_id' => '3633',
+    'primary_borrower' => '1',
+    'secondary_borrower' => '0',
+    'active' => '1',
+    'created' => '2013-05-05 23:24:27',
+    'modified' => '2013-05-05 23:24:27',
+  ),
+)
+7:31:59am:::1:array (
+  0 => 'PDO exec:',
+  1 => 
+  PDOStatement::__set_state(array(
+     'queryString' => ' select * from contacts where id = ? ',
+  )),
+  2 => 
+  array (
+    0 => '3633',
+  ),
+  3 => 
+  array (
+    0 => '00000',
+    1 => NULL,
+    2 => NULL,
+  ),
+  4 => 
+  array (
+    'id' => '3633',
+    'object_type_id' => '11',
+    'object_id' => '8655',
+    'contact_type_id' => '0',
+    'first_name' => 'First',
+    'last_name' => 'Name',
+    'middle_name' => '',
+    'prefix' => NULL,
+    'suffix' => NULL,
+    'title' => NULL,
+    'company_name' => NULL,
+    'email' => 'first@name.com',
+    'notification_email' => NULL,
+    'phone' => NULL,
+    'phone2' => '',
+    'address_id' => '3330',
+    'notes' => NULL,
+    'profile_ethnicity_id' => NULL,
+    'profile_race_id' => NULL,
+    'profile_sex_id' => NULL,
+    'income' => NULL,
+    'age' => '0',
+    'dob' => NULL,
+    'active' => '1',
+    'created' => '2013-05-05 23:24:27',
+    'modified' => '2013-05-05 23:24:27',
+  ),
+)
+7:31:59am:::1:array (
+  0 => 'PDO exec:',
+  1 => 
+  PDOStatement::__set_state(array(
+     'queryString' => ' select * from site_layouts where id = ?  ',
+  )),
+  2 => 
+  array (
+    0 => '4',
+  ),
+  3 => 
+  array (
+    0 => '00000',
+    1 => NULL,
+    2 => NULL,
+  ),
+  4 => 
+  array (
+    'id' => '4',
+    'layout_name' => 'Member Close',
+    'logo_url' => 'https://lp-files-dev.s3.amazonaws.com/layouts/4/4/logo_memberclose_1379611336.png',
+    'favicon_url' => 'https://lp-files-dev.s3.amazonaws.com/layouts/1/4/favicon_green_1379610833.ico',
+    'background_color' => '#e6e6e6',
+    'primary_color' => '#339900',
+    'link_color' => '#3333FF',
+    'page_width_type' => '0',
+    'page_width_value' => '960',
+    'application_name' => 'Member Close',
+    'custom_css' => '',
+    'footer_notice' => '(c)2014 Member Close',
+    'copyright_notice' => 'Member Close Sandbox',
+    'public_url' => 'sandbox.memberclose.com',
+    'homepage_html' => '<p></p><p><b>Member Close - Sandbox.</b></p><p><i style="line-height: 1.45em;">Please Note - Orders placed in this platform will not be fulfilled or charged. &nbsp;It is for demonstration and training purposes only.</i></p><h1><span style="line-height: 1.45em;"><b><a href="https://secure.memberclose.com">FOR LIVE SYSTEM CLICK HERE</a></b></span></h1>
+',
+    'dashboard_html' => '<p>Member Close - Sandbox</p><p><br></p>
+',
+    'compliance_html' => '<div style="float:right;">
+<div style="text-align:center;">
+<div>
+<img src="https://s3.amazonaws.com/lp-files-live/public/forms/soc-sized.jpg" />
+</div>
+<div style="padding-top:40px;">
+<img src="https://s3.amazonaws.com/lp-files-live/public/forms/nbss_logo.png" />
+</div>
+<div style="padding-top:30px;">
+<img src="https://s3.amazonaws.com/lp-files-live/public/forms/logo_lenderplatform.png" />
+</div>
+<div style="padding-top:30px;">
+<a href="http://aws.amazon.com/what-is-cloud-computing"><img src="http://awsmedia.s3.amazonaws.com/AWS_Logo_PoweredBy_127px.png" alt="Powered by AWS Cloud Computing"></a>
+</div>
+</div>
+</div>
+<div style="width:573px;">
+<p style="text-align:center;"><img src="https://s3.amazonaws.com/lp-files-live/public/forms/logo_memberclose.png" /></p>
+<p>Re: <b>2015 SSAE 16</b></p>
+<p>Dear MemberClose Credit Union,</p>
+<p>A comprehensive Due Diligence Package for the MemberClose Platform is now complete and available for you to review. Each entity providing services to the MemberClose Platform will distribute the following information to any credit union wishing to receive this due diligence package: </p>
+<p>This SSAE 16 compliant due diligence package consists of:</p>
+<p style="padding:0 20px;">i. Service Organization (NBSS Global). (SOC) 1 (Type 1) Report with additional supporting Due Diligence documentation.</p>
+<p style="padding:0 20px;">ii. Technology (Lender Platform). (SOC) 1 (Type 1) Report.</p>
+<p style="padding:0 20px;">iii. Data Center (Amazon Web Services). (SOC) 2 (Type 2) Report.</p>
+<p><b>IMPORTANT:</b> Each of these reports contains confidential information. Any credit union that would like to view these reports must have management personnel sign a non-disclosure agreement (NDA) for each entity in order to have this information released. The links to access each entity\'s NDA as well as information on where to return the NDA after it has been signed can be found below.</p>
+<br />
+<p style="padding:0 20px;">&bull;&nbsp;&nbsp;National Bundled Settlement Solutions (NBSS): <a href="https://s3.amazonaws.com/lp-files-live/public/forms/NBSS-Mutual_NDA_2015.pdf" target="_blank">click here for NBSS Mutual NDA</a> and <a href="https://s3.amazonaws.com/lp-files-live/public/forms/NBSS-SSAE16-REPORT-NDA-2015.pdf" target="_blank">NBSS SSAE 16 Report NDA</a> (2 files).<br />&nbsp;</p>
+<p style="padding:0 20px;">&bull;&nbsp;&nbsp;Lender Platform (LP): <a href="https://s3.amazonaws.com/lp-files-live/public/forms/NDA-Nondisclosure-Agreement-LP.pdf" target="_blank">click here for LP NDA</a>.<br />&nbsp;</p>
+<p style="padding:0 20px;">&bull;&nbsp;&nbsp;Amazon Web Services (AWS): <a href="https://s3.amazonaws.com/lp-files-live/public/forms/AWS-US-FORM-Customer-NDA.pdf" target="_blank">click here for Amazon NDA</a>.<br />&nbsp;</p>
+<p>Once signed, please scan and email to NBSS at <a href="mailto:compliance@nbssdirect.com?subject=SSAE16">compliance@nbssdirect.com</a></p>
+<p>The due diligence package is an ongoing process that includes annually updated SOC1 Type 2 reports by an independent third party auditor. A security compliance email list will be used to distribute compliance and security information updates to the relevant authorized persons within your organization. If you would like to add people to this list, please contact <a href="tony@nbssglobal.com">tony@nbssglobal.com</a>.
+If you have any questions regarding the due diligence packages, or require further information about MemberClose, please contact us at <a href="MemberClose@CUCenter.org">MemberClose@CUCenter.org</a>.</p>
+<p>Sincerely,</p>
+<br>
+<p>MemberClose</p>
+</div>',
+    'custom_js' => '/* GA Code */
+  (function(i,s,o,g,r,a,m){i[\'GoogleAnalyticsObject\']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,\'script\',\'//www.google-analytics.com/analytics.js\',\'ga\');
+
+  ga(\'create\', \'UA-47824140-2\', \'memberclose.com\');
+  ga(\'send\', \'pageview\');
+/* End GA Code */',
+    'client_id' => '4',
+    'created' => '2012-12-12 00:00:00',
+    'modified' => '2015-01-02 12:03:07',
+  ),
+)
+7:31:59am:::1:array (
+  0 => 'Sending Email To:',
+  1 => 'van@nbssllc.com',
+  2 => 'Cc:',
+  3 => 
+  array (
+  ),
+  4 => 'From:',
+  5 => 'Orders <orders@lenderplatform.com>',
+)
+7:31:59am:::1:array (
+  0 => 'Client Receipt Email Object contains',
+  1 => 
+  SimpleEmailServiceMessage::__set_state(array(
+     'to' => 
+    array (
+      0 => 'van@nbssllc.com',
+    ),
+     'cc' => 
+    array (
+    ),
+     'bcc' => 
+    array (
+    ),
+     'replyto' => 
+    array (
+    ),
+     'from' => 'Orders <orders@lenderplatform.com>',
+     'returnpath' => NULL,
+     'subject' => NULL,
+     'messagetext' => '<html><head><title>NOTE ADDED - (8655) - First Name</title></head><body><p><b>This is an automated notification.  Please use link below to respond.</b></p><p>Vendor #: <b>---</b></p><p>Order notification/update sent.<br><font size="4"></font></p><p>Click link to view order details:<br><a href=\'http://sandbox.memberclose.com/orders/view/8655\'>http://sandbox.memberclose.com/orders/view/8655</a><p>Thanks!</p><p>Instructions:<br>- You can click on the link above to go directly to this order.<br>- If you have forgotten your username and/or password see the following password reset link:<br><a href=\'http://sandbox.memberclose.com/password\'>http://sandbox.memberclose.com/password</a></body></html>',
+     'messagehtml' => '<html><head><title>NOTE ADDED - (8655) - First Name</title></head><body><p><b>This is an automated notification.  Please use link below to respond.</b></p><p>Vendor #: <b>---</b></p><p>Order notification/update sent.<br><font size="4"></font></p><p>Click link to view order details:<br><a href=\'http://sandbox.memberclose.com/orders/view/8655\'>http://sandbox.memberclose.com/orders/view/8655</a><p>Thanks!</p><p>Instructions:<br>- You can click on the link above to go directly to this order.<br>- If you have forgotten your username and/or password see the following password reset link:<br><a href=\'http://sandbox.memberclose.com/password\'>http://sandbox.memberclose.com/password</a></body></html>',
+     'subjectCharset' => NULL,
+     'messageTextCharset' => NULL,
+     'messageHtmlCharset' => NULL,
+  )),
+)
+7:32:00am:::1:array (
+  0 => 'PDO exec:',
+  1 => 
+  PDOStatement::__set_state(array(
+     'queryString' => 'SELECT id, client_id FROM users WHERE username = ?',
+  )),
+  2 => 
+  array (
+    0 => 'dsaini@q3tech.com',
+  ),
+  3 => 
+  array (
+    0 => '00000',
+    1 => NULL,
+    2 => NULL,
+  ),
+  4 => false,
+)
+7:32:00am:::1:array (
+  0 => 'PDO exec:',
+  1 => 
+  PDOStatement::__set_state(array(
+     'queryString' => 'SELECT id, client_id FROM users WHERE username = ?',
+  )),
+  2 => 
+  array (
+    0 => 'itq32015@gmail.com',
+  ),
+  3 => 
+  array (
+    0 => '00000',
+    1 => NULL,
+    2 => NULL,
+  ),
+  4 => false,
+)
+7:32:00am:::1:array (
+  0 => 'PDO exec:',
+  1 => 
+  PDOStatement::__set_state(array(
+     'queryString' => 'SELECT id, client_id FROM users WHERE username = ?',
+  )),
+  2 => 
+  array (
+    0 => 'dsaini@q3tech.com',
+  ),
+  3 => 
+  array (
+    0 => '00000',
+    1 => NULL,
+    2 => NULL,
+  ),
+  4 => false,
+)
+7:32:01am:::1:array (
+  0 => 'PDO exec:',
+  1 => 
+  PDOStatement::__set_state(array(
+     'queryString' => 'SELECT id, client_id FROM users WHERE username = ?',
+  )),
+  2 => 
+  array (
+    0 => 'no-reply@accounts.google.com',
+  ),
+  3 => 
+  array (
+    0 => '00000',
+    1 => NULL,
+    2 => NULL,
+  ),
+  4 => false,
+)
+7:32:01am:::1:array (
+  0 => 'PDO exec:',
+  1 => 
+  PDOStatement::__set_state(array(
+     'queryString' => 'SELECT id, client_id FROM users WHERE username = ?',
+  )),
+  2 => 
+  array (
+    0 => 'itq32015@gmail.com',
+  ),
+  3 => 
+  array (
+    0 => '00000',
+    1 => NULL,
+    2 => NULL,
+  ),
+  4 => false,
+)
+7:32:02am:::1:array (
+  0 => 'PDO exec:',
+  1 => 
+  PDOStatement::__set_state(array(
+     'queryString' => 'SELECT id, client_id FROM users WHERE username = ?',
+  )),
+  2 => 
+  array (
+    0 => 'no-reply@accounts.google.com',
+  ),
+  3 => 
+  array (
+    0 => '00000',
+    1 => NULL,
+    2 => NULL,
+  ),
+  4 => false,
+)
+7:32:02am:::1:array (
+  0 => 'PDO exec:',
+  1 => 
+  PDOStatement::__set_state(array(
+     'queryString' => 'SELECT id, client_id FROM users WHERE username = ?',
+  )),
+  2 => 
+  array (
+    0 => 'no-reply@accounts.google.com',
+  ),
+  3 => 
+  array (
+    0 => '00000',
+    1 => NULL,
+    2 => NULL,
+  ),
+  4 => false,
+)
+7:32:03am:::1:array (
+  0 => 'PDO exec:',
+  1 => 
+  PDOStatement::__set_state(array(
+     'queryString' => 'SELECT id, client_id FROM users WHERE username = ?',
+  )),
+  2 => 
+  array (
+    0 => 'mail-noreply@google.com',
+  ),
+  3 => 
+  array (
+    0 => '00000',
+    1 => NULL,
+    2 => NULL,
+  ),
+  4 => false,
+)
+7:32:03am:::1:array (
+  0 => 'PDO exec:',
+  1 => 
+  PDOStatement::__set_state(array(
+     'queryString' => 'SELECT id, client_id FROM users WHERE username = ?',
+  )),
+  2 => 
+  array (
+    0 => 'mail-noreply@google.com',
+  ),
+  3 => 
+  array (
+    0 => '00000',
+    1 => NULL,
+    2 => NULL,
+  ),
+  4 => false,
+)
+7:32:03am:::1:array (
+  0 => 'PDO exec:',
+  1 => 
+  PDOStatement::__set_state(array(
+     'queryString' => 'SELECT id, client_id FROM users WHERE username = ?',
+  )),
+  2 => 
+  array (
+    0 => 'no-reply@accounts.google.com',
+  ),
+  3 => 
+  array (
+    0 => '00000',
+    1 => NULL,
+    2 => NULL,
+  ),
+  4 => false,
+)

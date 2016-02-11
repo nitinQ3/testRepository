@@ -1,0 +1,541 @@
+1:40:39am::array (
+  0 => 'PDO exec:',
+  1 => 
+  PDOStatement::__set_state(array(
+     'queryString' => 'SELECT id FROM email_messages WHERE msg_uid = ?',
+  )),
+  2 => 
+  array (
+    0 => '14f686043ec0cdb6',
+  ),
+  3 => 
+  array (
+    0 => '00000',
+    1 => NULL,
+    2 => NULL,
+  ),
+  4 => false,
+)
+1:40:39am::array (
+  0 => 'PDO exec:',
+  1 => 
+  PDOStatement::__set_state(array(
+     'queryString' => 'SELECT id, client_id FROM users WHERE username = ?',
+  )),
+  2 => 
+  array (
+    0 => 'no-reply@accounts.google.com',
+  ),
+  3 => 
+  array (
+    0 => '00000',
+    1 => NULL,
+    2 => NULL,
+  ),
+  4 => false,
+)
+1:40:40am::array (
+  0 => 'PDO exec:',
+  1 => 
+  PDOStatement::__set_state(array(
+     'queryString' => 'INSERT into email_messages(client_id, client_object_id, user_id, order_id, note_id, is_spam,assigned_to_user_id, email_status_id, content_raw, content_filtered,subject, from_address, to_address, msg_uid, cc, active, created, modified) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?, ?)',
+  )),
+  2 => 
+  array (
+    0 => '1',
+    1 => '1',
+    2 => '',
+    3 => '',
+    4 => '',
+    5 => '0',
+    6 => '',
+    7 => '1',
+    8 => 'O:8:"stdClass":1:{s:6:"header";a:20:{i:0;O:38:"Google_Service_Gmail_MessagePartHeader":5:{s:25:"' . "\0" . '*' . "\0" . 'internal_gapi_mappings";a:0:{}s:4:"name";s:12:"Delivered-To";s:5:"value";s:24:"lenderplatform@gmail.com";s:12:"' . "\0" . '*' . "\0" . 'modelData";a:0:{}s:12:"' . "\0" . '*' . "\0" . 'processed";a:0:{}}i:1;O:38:"Google_Service_Gmail_MessagePartHeader":5:{s:25:"' . "\0" . '*' . "\0" . 'internal_gapi_mappings";a:0:{}s:4:"name";s:8:"Received";s:5:"value";s:93:"by 10.112.209.10 with SMTP id mi10csp3280614lbc;        Tue, 25 Aug 2015 21:59:44 -0700 (PDT)";s:12:"' . "\0" . '*' . "\0" . 'modelData";a:0:{}s:12:"' . "\0" . '*' . "\0" . 'processed";a:0:{}}i:2;O:38:"Google_Service_Gmail_MessagePartHeader":5:{s:25:"' . "\0" . '*' . "\0" . 'internal_gapi_mappings";a:0:{}s:4:"name";s:10:"X-Received";s:5:"value";s:107:"by 10.107.132.139 with SMTP id o11mr952201ioi.3.1440565183308;        Tue, 25 Aug 2015 21:59:43 -0700 (PDT)";s:12:"' . "\0" . '*' . "\0" . 'modelData";a:0:{}s:12:"' . "\0" . '*' . "\0" . 'processed";a:0:{}}i:3;O:38:"Google_Service_Gmail_MessagePartHeader":5:{s:25:"' . "\0" . '*' . "\0" . 'internal_gapi_mappings";a:0:{}s:4:"name";s:11:"Return-Path";s:5:"value";s:88:"<3vkfdVQgTDncij-mZkgtVXXjpion.bjjbgZ.XjhgZiYZmkgVoajmhbhVdg.Xjh@gaia.bounces.google.com>";s:12:"' . "\0" . '*' . "\0" . 'modelData";a:0:{}s:12:"' . "\0" . '*' . "\0" . 'processed";a:0:{}}i:4;O:38:"Google_Service_Gmail_MessagePartHeader":5:{s:25:"' . "\0" . '*' . "\0" . 'internal_gapi_mappings";a:0:{}s:4:"name";s:8:"Received";s:5:"value";s:319:"from mail-io0-x246.google.com (mail-io0-x246.google.com. [2607:f8b0:4001:c06::246])        by mx.google.com with ESMTPS id u74si11385402ioi.31.2015.08.25.21.59.42        for <lenderplatform@gmail.com>        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);        Tue, 25 Aug 2015 21:59:43 -0700 (PDT)";s:12:"' . "\0" . '*' . "\0" . 'modelData";a:0:{}s:12:"' . "\0" . '*' . "\0" . 'processed";a:0:{}}i:5;O:38:"Google_Service_Gmail_MessagePartHeader":5:{s:25:"' . "\0" . '*' . "\0" . 'internal_gapi_mappings";a:0:{}s:4:"name";s:12:"Received-SPF";s:5:"value";s:205:"pass (google.com: domain of 3vkfdVQgTDncij-mZkgtVXXjpion.bjjbgZ.XjhgZiYZmkgVoajmhbhVdg.Xjh@gaia.bounces.google.com designates 2607:f8b0:4001:c06::246 as permitted sender) client-ip=2607:f8b0:4001:c06::246;";s:12:"' . "\0" . '*' . "\0" . 'modelData";a:0:{}s:12:"' . "\0" . '*' . "\0" . 'processed";a:0:{}}i:6;O:38:"Google_Service_Gmail_MessagePartHeader":5:{s:25:"' . "\0" . '*' . "\0" . 'internal_gapi_mappings";a:0:{}s:4:"name";s:22:"Authentication-Results";s:5:"value";s:413:"mx.google.com;       spf=pass (google.com: domain of 3vkfdVQgTDncij-mZkgtVXXjpion.bjjbgZ.XjhgZiYZmkgVoajmhbhVdg.Xjh@gaia.bounces.google.com designates 2607:f8b0:4001:c06::246 as permitted sender) smtp.mailfrom=3vkfdVQgTDncij-mZkgtVXXjpion.bjjbgZ.XjhgZiYZmkgVoajmhbhVdg.Xjh@gaia.bounces.google.com;       dkim=pass header.i=@accounts.google.com;       dmarc=pass (p=REJECT dis=NONE) header.from=accounts.google.com";s:12:"' . "\0" . '*' . "\0" . 'modelData";a:0:{}s:12:"' . "\0" . '*' . "\0" . 'processed";a:0:{}}i:7;O:38:"Google_Service_Gmail_MessagePartHeader":5:{s:25:"' . "\0" . '*' . "\0" . 'internal_gapi_mappings";a:0:{}s:4:"name";s:8:"Received";s:5:"value";s:136:"by mail-io0-x246.google.com with SMTP id v127so9393004iod.3        for <lenderplatform@gmail.com>; Tue, 25 Aug 2015 21:59:42 -0700 (PDT)";s:12:"' . "\0" . '*' . "\0" . 'modelData";a:0:{}s:12:"' . "\0" . '*' . "\0" . 'processed";a:0:{}}i:8;O:38:"Google_Service_Gmail_MessagePartHeader":5:{s:25:"' . "\0" . '*' . "\0" . 'internal_gapi_mappings";a:0:{}s:4:"name";s:14:"DKIM-Signature";s:5:"value";s:623:"v=1; a=rsa-sha256; c=relaxed/relaxed;        d=accounts.google.com; s=20120806;        h=mime-version:feedback-id:date:message-id:subject:from:to         :content-type;        bh=LQK7cPJ9ZZZuASS5OdWOTtDxmog3bt9zKO3dhgHR6l4=;        b=X99oHPcNdbzQc4avqG8YoRqZm2I6Kw4He8MzACgE5xBrMT+qfJErlIffEW078iY9Wc         QedJMhS4chzX6kcRbJUIGVbijjL8Dw5RhdsHXFoC5wSEfme8Q6ZMNzQOt2yn/pvRJNkv         pOeYb7TGvUMUrvpNnKdpQUvc51swKTrwJOUb5xFDQQhXbrvvAXOdTr4nrqj/RIu54NzX         +37EGxKke3Dk36H9DT9AlVbO20exqwO5r5K79LCK2OUOMfn/LGO1uRZLXsCQVTYevW/9         dqX9N4dHLaowxsPZdnLS0Eg7dp7KaMpaudPy4Uco4RmcA0vX90BJU7EClaXRN7ho2SrR         +hAg==";s:12:"' . "\0" . '*' . "\0" . 'modelData";a:0:{}s:12:"' . "\0" . '*' . "\0" . 'processed";a:0:{}}i:9;O:38:"Google_Service_Gmail_MessagePartHeader":5:{s:25:"' . "\0" . '*' . "\0" . 'internal_gapi_mappings";a:0:{}s:4:"name";s:12:"MIME-Version";s:5:"value";s:3:"1.0";s:12:"' . "\0" . '*' . "\0" . 'modelData";a:0:{}s:12:"' . "\0" . '*' . "\0" . 'processed";a:0:{}}i:10;O:38:"Google_Service_Gmail_MessagePartHeader":5:{s:25:"' . "\0" . '*' . "\0" . 'internal_gapi_mappings";a:0:{}s:4:"name";s:10:"X-Received";s:5:"value";s:103:"by 10.182.103.194 with SMTP id fy2mr31171360obb.46.1440565182309; Tue, 25 Aug 2015 21:59:42 -0700 (PDT)";s:12:"' . "\0" . '*' . "\0" . 'modelData";a:0:{}s:12:"' . "\0" . '*' . "\0" . 'processed";a:0:{}}i:11;O:38:"Google_Service_Gmail_MessagePartHeader":5:{s:25:"' . "\0" . '*' . "\0" . 'internal_gapi_mappings";a:0:{}s:4:"name";s:15:"X-Notifications";s:5:"value";s:28:"XEAAAAF8uIMekPXA48ad-eseo8is";s:12:"' . "\0" . '*' . "\0" . 'modelData";a:0:{}s:12:"' . "\0" . '*' . "\0" . 'processed";a:0:{}}i:12;O:38:"Google_Service_Gmail_MessagePartHeader":5:{s:25:"' . "\0" . '*' . "\0" . 'internal_gapi_mappings";a:0:{}s:4:"name";s:27:"X-Account-Notification-Type";s:5:"value";s:14:"GPS_NEW_DEVICE";s:12:"' . "\0" . '*' . "\0" . 'modelData";a:0:{}s:12:"' . "\0" . '*' . "\0" . 'processed";a:0:{}}i:13;O:38:"Google_Service_Gmail_MessagePartHeader":5:{s:25:"' . "\0" . '*' . "\0" . 'internal_gapi_mappings";a:0:{}s:4:"name";s:11:"Feedback-ID";s:5:"value";s:31:"GPS_NEW_DEVICE:account-notifier";s:12:"' . "\0" . '*' . "\0" . 'modelData";a:0:{}s:12:"' . "\0" . '*' . "\0" . 'processed";a:0:{}}i:14;O:38:"Google_Service_Gmail_MessagePartHeader":5:{s:25:"' . "\0" . '*' . "\0" . 'internal_gapi_mappings";a:0:{}s:4:"name";s:4:"Date";s:5:"value";s:37:"Wed, 26 Aug 2015 04:59:30 +0000 (UTC)";s:12:"' . "\0" . '*' . "\0" . 'modelData";a:0:{}s:12:"' . "\0" . '*' . "\0" . 'processed";a:0:{}}i:15;O:38:"Google_Service_Gmail_MessagePartHeader":5:{s:25:"' . "\0" . '*' . "\0" . 'internal_gapi_mappings";a:0:{}s:4:"name";s:10:"Message-ID";s:5:"value";s:49:"<QodS0-TBhLAsblE0bMWZKg@notifications.google.com>";s:12:"' . "\0" . '*' . "\0" . 'modelData";a:0:{}s:12:"' . "\0" . '*' . "\0" . 'processed";a:0:{}}i:16;O:38:"Google_Service_Gmail_MessagePartHeader":5:{s:25:"' . "\0" . '*' . "\0" . 'internal_gapi_mappings";a:0:{}s:4:"name";s:7:"Subject";s:5:"value";s:35:"New sign-in from Firefox on Windows";s:12:"' . "\0" . '*' . "\0" . 'modelData";a:0:{}s:12:"' . "\0" . '*' . "\0" . 'processed";a:0:{}}i:17;O:38:"Google_Service_Gmail_MessagePartHeader":5:{s:25:"' . "\0" . '*' . "\0" . 'internal_gapi_mappings";a:0:{}s:4:"name";s:4:"From";s:5:"value";s:37:"Google <no-reply@accounts.google.com>";s:12:"' . "\0" . '*' . "\0" . 'modelData";a:0:{}s:12:"' . "\0" . '*' . "\0" . 'processed";a:0:{}}i:18;O:38:"Google_Service_Gmail_MessagePartHeader":5:{s:25:"' . "\0" . '*' . "\0" . 'internal_gapi_mappings";a:0:{}s:4:"name";s:2:"To";s:5:"value";s:24:"lenderplatform@gmail.com";s:12:"' . "\0" . '*' . "\0" . 'modelData";a:0:{}s:12:"' . "\0" . '*' . "\0" . 'processed";a:0:{}}i:19;O:38:"Google_Service_Gmail_MessagePartHeader":5:{s:25:"' . "\0" . '*' . "\0" . 'internal_gapi_mappings";a:0:{}s:4:"name";s:12:"Content-Type";s:5:"value";s:56:"multipart/related; boundary=089e013c6d1af7a707051e2fb781";s:12:"' . "\0" . '*' . "\0" . 'modelData";a:0:{}s:12:"' . "\0" . '*' . "\0" . 'processed";a:0:{}}}}',
+    9 => 'N;',
+    10 => 'New sign-in from Firefox on Windows',
+    11 => 'no-reply@accounts.google.com',
+    12 => 'lenderplatform@gmail.com',
+    13 => '14f686043ec0cdb6',
+    14 => '',
+    15 => '1',
+    16 => '2015-08-26 01:40:39',
+    17 => '2015-08-26 01:40:39',
+  ),
+  3 => 
+  array (
+    0 => '00000',
+    1 => NULL,
+    2 => NULL,
+  ),
+  4 => '13',
+)
+1:40:40am::array (
+  0 => 'PDO exec:',
+  1 => 
+  PDOStatement::__set_state(array(
+     'queryString' => 'SELECT id FROM email_messages WHERE msg_uid = ?',
+  )),
+  2 => 
+  array (
+    0 => '14f077634d374b0c',
+  ),
+  3 => 
+  array (
+    0 => '00000',
+    1 => NULL,
+    2 => NULL,
+  ),
+  4 => false,
+)
+1:40:40am::array (
+  0 => 'PDO exec:',
+  1 => 
+  PDOStatement::__set_state(array(
+     'queryString' => 'SELECT id, client_id FROM users WHERE username = ?',
+  )),
+  2 => 
+  array (
+    0 => 'no-reply@accounts.google.com',
+  ),
+  3 => 
+  array (
+    0 => '00000',
+    1 => NULL,
+    2 => NULL,
+  ),
+  4 => false,
+)
+1:40:40am::array (
+  0 => 'PDO exec:',
+  1 => 
+  PDOStatement::__set_state(array(
+     'queryString' => 'INSERT into email_messages(client_id, client_object_id, user_id, order_id, note_id, is_spam,assigned_to_user_id, email_status_id, content_raw, content_filtered,subject, from_address, to_address, msg_uid, cc, active, created, modified) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?, ?)',
+  )),
+  2 => 
+  array (
+    0 => '1',
+    1 => '1',
+    2 => '',
+    3 => '',
+    4 => '',
+    5 => '0',
+    6 => '',
+    7 => '1',
+    8 => 'O:8:"stdClass":1:{s:6:"header";a:20:{i:0;O:38:"Google_Service_Gmail_MessagePartHeader":5:{s:25:"' . "\0" . '*' . "\0" . 'internal_gapi_mappings";a:0:{}s:4:"name";s:12:"Delivered-To";s:5:"value";s:24:"lenderplatform@gmail.com";s:12:"' . "\0" . '*' . "\0" . 'modelData";a:0:{}s:12:"' . "\0" . '*' . "\0" . 'processed";a:0:{}}i:1;O:38:"Google_Service_Gmail_MessagePartHeader":5:{s:25:"' . "\0" . '*' . "\0" . 'internal_gapi_mappings";a:0:{}s:4:"name";s:8:"Received";s:5:"value";s:89:"by 10.112.12.74 with SMTP id w10csp207808lbb;        Fri, 7 Aug 2015 02:20:31 -0700 (PDT)";s:12:"' . "\0" . '*' . "\0" . 'modelData";a:0:{}s:12:"' . "\0" . '*' . "\0" . 'processed";a:0:{}}i:2;O:38:"Google_Service_Gmail_MessagePartHeader":5:{s:25:"' . "\0" . '*' . "\0" . 'internal_gapi_mappings";a:0:{}s:4:"name";s:10:"X-Received";s:5:"value";s:106:"by 10.50.79.169 with SMTP id k9mr1710681igx.44.1438939231274;        Fri, 07 Aug 2015 02:20:31 -0700 (PDT)";s:12:"' . "\0" . '*' . "\0" . 'modelData";a:0:{}s:12:"' . "\0" . '*' . "\0" . 'processed";a:0:{}}i:3;O:38:"Google_Service_Gmail_MessagePartHeader":5:{s:25:"' . "\0" . '*' . "\0" . 'internal_gapi_mappings";a:0:{}s:4:"name";s:11:"Return-Path";s:5:"value";s:88:"<3XnjEVQgTDhU89-CzA6Jvxx9F8ED.19916z.x976z8yzCA6vE09C717v36.x97@gaia.bounces.google.com>";s:12:"' . "\0" . '*' . "\0" . 'modelData";a:0:{}s:12:"' . "\0" . '*' . "\0" . 'processed";a:0:{}}i:4;O:38:"Google_Service_Gmail_MessagePartHeader":5:{s:25:"' . "\0" . '*' . "\0" . 'internal_gapi_mappings";a:0:{}s:4:"name";s:8:"Received";s:5:"value";s:319:"from mail-io0-x245.google.com (mail-io0-x245.google.com. [2607:f8b0:4001:c06::245])        by mx.google.com with ESMTPS id l14si6304250iod.135.2015.08.07.02.20.30        for <lenderplatform@gmail.com>        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);        Fri, 07 Aug 2015 02:20:31 -0700 (PDT)";s:12:"' . "\0" . '*' . "\0" . 'modelData";a:0:{}s:12:"' . "\0" . '*' . "\0" . 'processed";a:0:{}}i:5;O:38:"Google_Service_Gmail_MessagePartHeader":5:{s:25:"' . "\0" . '*' . "\0" . 'internal_gapi_mappings";a:0:{}s:4:"name";s:12:"Received-SPF";s:5:"value";s:205:"pass (google.com: domain of 3XnjEVQgTDhU89-CzA6Jvxx9F8ED.19916z.x976z8yzCA6vE09C717v36.x97@gaia.bounces.google.com designates 2607:f8b0:4001:c06::245 as permitted sender) client-ip=2607:f8b0:4001:c06::245;";s:12:"' . "\0" . '*' . "\0" . 'modelData";a:0:{}s:12:"' . "\0" . '*' . "\0" . 'processed";a:0:{}}i:6;O:38:"Google_Service_Gmail_MessagePartHeader":5:{s:25:"' . "\0" . '*' . "\0" . 'internal_gapi_mappings";a:0:{}s:4:"name";s:22:"Authentication-Results";s:5:"value";s:409:"mx.google.com;       spf=pass (google.com: domain of 3XnjEVQgTDhU89-CzA6Jvxx9F8ED.19916z.x976z8yzCA6vE09C717v36.x97@gaia.bounces.google.com designates 2607:f8b0:4001:c06::245 as permitted sender) smtp.mail=3XnjEVQgTDhU89-CzA6Jvxx9F8ED.19916z.x976z8yzCA6vE09C717v36.x97@gaia.bounces.google.com;       dkim=pass header.i=@accounts.google.com;       dmarc=pass (p=REJECT dis=NONE) header.from=accounts.google.com";s:12:"' . "\0" . '*' . "\0" . 'modelData";a:0:{}s:12:"' . "\0" . '*' . "\0" . 'processed";a:0:{}}i:7;O:38:"Google_Service_Gmail_MessagePartHeader":5:{s:25:"' . "\0" . '*' . "\0" . 'internal_gapi_mappings";a:0:{}s:4:"name";s:8:"Received";s:5:"value";s:138:"by mail-io0-x245.google.com with SMTP id i189so130033658ioe.0        for <lenderplatform@gmail.com>; Fri, 07 Aug 2015 02:20:30 -0700 (PDT)";s:12:"' . "\0" . '*' . "\0" . 'modelData";a:0:{}s:12:"' . "\0" . '*' . "\0" . 'processed";a:0:{}}i:8;O:38:"Google_Service_Gmail_MessagePartHeader":5:{s:25:"' . "\0" . '*' . "\0" . 'internal_gapi_mappings";a:0:{}s:4:"name";s:14:"DKIM-Signature";s:5:"value";s:623:"v=1; a=rsa-sha256; c=relaxed/relaxed;        d=accounts.google.com; s=20120806;        h=mime-version:feedback-id:date:message-id:subject:from:to         :content-type;        bh=x3O5177zaPRSyJxDipMB5bGJJ4LOI7vnoPz45yllByw=;        b=jBvO6PMYWXjcr/PkGZR893GyvLJYR4rhaT4wj5EridF9G7E51PmVejey6K0uBBsBTB         8VwhQMn04ltl3BbGPFM41tNMNGvJVUnyAATk0Yt7NfNcMtP5RNs70Cw5O3wovLa9Ug4v         m7fkLotqFew1pWhXwfSSWF43AQTvfuGSLPHss6VkgCI3GHvLHc6tSTRAreO1kgNrVHDV         Lqk4lxX2kKOSIqPb+lgD13byU6Dfg0XeWuLqKGlq5CaO/2ZoChoDgUkEl6Qmhx8I3eZ0         rQxfYI7RmwA0/uZjUtfggfyf5NX34VXM64gxw+LeyQ85E00aD/VrDK3wZrmvvXnA2gwu         0F7A==";s:12:"' . "\0" . '*' . "\0" . 'modelData";a:0:{}s:12:"' . "\0" . '*' . "\0" . 'processed";a:0:{}}i:9;O:38:"Google_Service_Gmail_MessagePartHeader":5:{s:25:"' . "\0" . '*' . "\0" . 'internal_gapi_mappings";a:0:{}s:4:"name";s:12:"MIME-Version";s:5:"value";s:3:"1.0";s:12:"' . "\0" . '*' . "\0" . 'modelData";a:0:{}s:12:"' . "\0" . '*' . "\0" . 'processed";a:0:{}}i:10;O:38:"Google_Service_Gmail_MessagePartHeader":5:{s:25:"' . "\0" . '*' . "\0" . 'internal_gapi_mappings";a:0:{}s:4:"name";s:10:"X-Received";s:5:"value";s:100:"by 10.107.168.41 with SMTP id r41mr5501579ioe.4.1438939230544; Fri, 07 Aug 2015 02:20:30 -0700 (PDT)";s:12:"' . "\0" . '*' . "\0" . 'modelData";a:0:{}s:12:"' . "\0" . '*' . "\0" . 'processed";a:0:{}}i:11;O:38:"Google_Service_Gmail_MessagePartHeader":5:{s:25:"' . "\0" . '*' . "\0" . 'internal_gapi_mappings";a:0:{}s:4:"name";s:15:"X-Notifications";s:5:"value";s:28:"XEAAAAGLywWkocehQlLvqOSa-s1c";s:12:"' . "\0" . '*' . "\0" . 'modelData";a:0:{}s:12:"' . "\0" . '*' . "\0" . 'processed";a:0:{}}i:12;O:38:"Google_Service_Gmail_MessagePartHeader":5:{s:25:"' . "\0" . '*' . "\0" . 'internal_gapi_mappings";a:0:{}s:4:"name";s:27:"X-Account-Notification-Type";s:5:"value";s:28:"GPS_UNSAFE_APP_LOGIN_BLOCKED";s:12:"' . "\0" . '*' . "\0" . 'modelData";a:0:{}s:12:"' . "\0" . '*' . "\0" . 'processed";a:0:{}}i:13;O:38:"Google_Service_Gmail_MessagePartHeader":5:{s:25:"' . "\0" . '*' . "\0" . 'internal_gapi_mappings";a:0:{}s:4:"name";s:11:"Feedback-ID";s:5:"value";s:45:"GPS_UNSAFE_APP_LOGIN_BLOCKED:account-notifier";s:12:"' . "\0" . '*' . "\0" . 'modelData";a:0:{}s:12:"' . "\0" . '*' . "\0" . 'processed";a:0:{}}i:14;O:38:"Google_Service_Gmail_MessagePartHeader":5:{s:25:"' . "\0" . '*' . "\0" . 'internal_gapi_mappings";a:0:{}s:4:"name";s:4:"Date";s:5:"value";s:36:"Fri, 7 Aug 2015 09:20:21 +0000 (UTC)";s:12:"' . "\0" . '*' . "\0" . 'modelData";a:0:{}s:12:"' . "\0" . '*' . "\0" . 'processed";a:0:{}}i:15;O:38:"Google_Service_Gmail_MessagePartHeader":5:{s:25:"' . "\0" . '*' . "\0" . 'internal_gapi_mappings";a:0:{}s:4:"name";s:10:"Message-ID";s:5:"value";s:49:"<Jgf1TFr4p4Pikxkc1l8WvA@notifications.google.com>";s:12:"' . "\0" . '*' . "\0" . 'modelData";a:0:{}s:12:"' . "\0" . '*' . "\0" . 'processed";a:0:{}}i:16;O:38:"Google_Service_Gmail_MessagePartHeader":5:{s:25:"' . "\0" . '*' . "\0" . 'internal_gapi_mappings";a:0:{}s:4:"name";s:7:"Subject";s:5:"value";s:25:"Sign-in attempt prevented";s:12:"' . "\0" . '*' . "\0" . 'modelData";a:0:{}s:12:"' . "\0" . '*' . "\0" . 'processed";a:0:{}}i:17;O:38:"Google_Service_Gmail_MessagePartHeader":5:{s:25:"' . "\0" . '*' . "\0" . 'internal_gapi_mappings";a:0:{}s:4:"name";s:4:"From";s:5:"value";s:37:"Google <no-reply@accounts.google.com>";s:12:"' . "\0" . '*' . "\0" . 'modelData";a:0:{}s:12:"' . "\0" . '*' . "\0" . 'processed";a:0:{}}i:18;O:38:"Google_Service_Gmail_MessagePartHeader":5:{s:25:"' . "\0" . '*' . "\0" . 'internal_gapi_mappings";a:0:{}s:4:"name";s:2:"To";s:5:"value";s:24:"lenderplatform@gmail.com";s:12:"' . "\0" . '*' . "\0" . 'modelData";a:0:{}s:12:"' . "\0" . '*' . "\0" . 'processed";a:0:{}}i:19;O:38:"Google_Service_Gmail_MessagePartHeader":5:{s:25:"' . "\0" . '*' . "\0" . 'internal_gapi_mappings";a:0:{}s:4:"name";s:12:"Content-Type";s:5:"value";s:56:"multipart/related; boundary=001a11426aeeb0a460051cb52550";s:12:"' . "\0" . '*' . "\0" . 'modelData";a:0:{}s:12:"' . "\0" . '*' . "\0" . 'processed";a:0:{}}}}',
+    9 => 'N;',
+    10 => 'Sign-in attempt prevented',
+    11 => 'no-reply@accounts.google.com',
+    12 => 'lenderplatform@gmail.com',
+    13 => '14f077634d374b0c',
+    14 => '',
+    15 => '1',
+    16 => '2015-08-26 01:40:40',
+    17 => '2015-08-26 01:40:40',
+  ),
+  3 => 
+  array (
+    0 => '00000',
+    1 => NULL,
+    2 => NULL,
+  ),
+  4 => '14',
+)
+1:40:40am::array (
+  0 => 'PDO exec:',
+  1 => 
+  PDOStatement::__set_state(array(
+     'queryString' => 'SELECT id FROM email_messages WHERE msg_uid = ?',
+  )),
+  2 => 
+  array (
+    0 => '14efdfb299dcb4fc',
+  ),
+  3 => 
+  array (
+    0 => '00000',
+    1 => NULL,
+    2 => NULL,
+  ),
+  4 => false,
+)
+1:40:41am::array (
+  0 => 'PDO exec:',
+  1 => 
+  PDOStatement::__set_state(array(
+     'queryString' => 'SELECT id, client_id FROM users WHERE username = ?',
+  )),
+  2 => 
+  array (
+    0 => 'mail-noreply@google.com',
+  ),
+  3 => 
+  array (
+    0 => '00000',
+    1 => NULL,
+    2 => NULL,
+  ),
+  4 => false,
+)
+1:40:41am::array (
+  0 => 'PDO exec:',
+  1 => 
+  PDOStatement::__set_state(array(
+     'queryString' => 'INSERT into email_messages(client_id, client_object_id, user_id, order_id, note_id, is_spam,assigned_to_user_id, email_status_id, content_raw, content_filtered,subject, from_address, to_address, msg_uid, cc, active, created, modified) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?, ?)',
+  )),
+  2 => 
+  array (
+    0 => '1',
+    1 => '1',
+    2 => '',
+    3 => '',
+    4 => '',
+    5 => '0',
+    6 => '',
+    7 => '1',
+    8 => 'O:8:"stdClass":2:{s:6:"header";a:9:{i:0;O:38:"Google_Service_Gmail_MessagePartHeader":5:{s:25:"' . "\0" . '*' . "\0" . 'internal_gapi_mappings";a:0:{}s:4:"name";s:12:"MIME-Version";s:5:"value";s:3:"1.0";s:12:"' . "\0" . '*' . "\0" . 'modelData";a:0:{}s:12:"' . "\0" . '*' . "\0" . 'processed";a:0:{}}i:1;O:38:"Google_Service_Gmail_MessagePartHeader":5:{s:25:"' . "\0" . '*' . "\0" . 'internal_gapi_mappings";a:0:{}s:4:"name";s:20:"x-no-auto-attachment";s:5:"value";s:1:"1";s:12:"' . "\0" . '*' . "\0" . 'modelData";a:0:{}s:12:"' . "\0" . '*' . "\0" . 'processed";a:0:{}}i:2;O:38:"Google_Service_Gmail_MessagePartHeader":5:{s:25:"' . "\0" . '*' . "\0" . 'internal_gapi_mappings";a:0:{}s:4:"name";s:8:"Received";s:5:"value";s:54:"by 10.112.131.71; Wed, 5 Aug 2015 06:09:32 -0700 (PDT)";s:12:"' . "\0" . '*' . "\0" . 'modelData";a:0:{}s:12:"' . "\0" . '*' . "\0" . 'processed";a:0:{}}i:3;O:38:"Google_Service_Gmail_MessagePartHeader":5:{s:25:"' . "\0" . '*' . "\0" . 'internal_gapi_mappings";a:0:{}s:4:"name";s:4:"Date";s:5:"value";s:30:"Wed, 5 Aug 2015 06:09:32 -0700";s:12:"' . "\0" . '*' . "\0" . 'modelData";a:0:{}s:12:"' . "\0" . '*' . "\0" . 'processed";a:0:{}}i:4;O:38:"Google_Service_Gmail_MessagePartHeader":5:{s:25:"' . "\0" . '*' . "\0" . 'internal_gapi_mappings";a:0:{}s:4:"name";s:10:"Message-ID";s:5:"value";s:68:"<CABL-sXmB=NgZyF-t=Z27Dha+hx=K4V+a8Zr-MLasmj8e-r+d0A@mail.gmail.com>";s:12:"' . "\0" . '*' . "\0" . 'modelData";a:0:{}s:12:"' . "\0" . '*' . "\0" . 'processed";a:0:{}}i:5;O:38:"Google_Service_Gmail_MessagePartHeader":5:{s:25:"' . "\0" . '*' . "\0" . 'internal_gapi_mappings";a:0:{}s:4:"name";s:7:"Subject";s:5:"value";s:38:"Stay more organized with Gmail\'s inbox";s:12:"' . "\0" . '*' . "\0" . 'modelData";a:0:{}s:12:"' . "\0" . '*' . "\0" . 'processed";a:0:{}}i:6;O:38:"Google_Service_Gmail_MessagePartHeader":5:{s:25:"' . "\0" . '*' . "\0" . 'internal_gapi_mappings";a:0:{}s:4:"name";s:4:"From";s:5:"value";s:36:"Gmail Team <mail-noreply@google.com>";s:12:"' . "\0" . '*' . "\0" . 'modelData";a:0:{}s:12:"' . "\0" . '*' . "\0" . 'processed";a:0:{}}i:7;O:38:"Google_Service_Gmail_MessagePartHeader":5:{s:25:"' . "\0" . '*' . "\0" . 'internal_gapi_mappings";a:0:{}s:4:"name";s:2:"To";s:5:"value";s:37:"Andy Sharp <lenderplatform@gmail.com>";s:12:"' . "\0" . '*' . "\0" . 'modelData";a:0:{}s:12:"' . "\0" . '*' . "\0" . 'processed";a:0:{}}i:8;O:38:"Google_Service_Gmail_MessagePartHeader":5:{s:25:"' . "\0" . '*' . "\0" . 'internal_gapi_mappings";a:0:{}s:4:"name";s:12:"Content-Type";s:5:"value";s:60:"multipart/alternative; boundary=001a1136155017008f051c901d5c";s:12:"' . "\0" . '*' . "\0" . 'modelData";a:0:{}s:12:"' . "\0" . '*' . "\0" . 'processed";a:0:{}}}s:4:"body";s:1367:" Stay more organized with Gmail\'s inbox
+[image: Google]
+
+Hi Andy
+
+Gmail\'s inbox puts you in control
+
+[image: Inbox video] <https://www.youtube.com/watch?v=CFf7dlewJus>
+Meet the inbox
+
+Gmail\'s inbox sorts your email into categories so you can see what\'s new at
+a glance, decide which emails you want to read when and view similar types
+of emails together. Watch the video
+<https://www.youtube.com/watch?v=CFf7dlewJus>
+[image: Social tab]
+Choose your categories
+
+The Social and Promotions categories are on by default. Add categories like
+Updates and Forums or remove categories to have those emails show up in
+your Primary inbox. Learn how to choose categories
+<https://support.google.com/mail/?hl=en&p=inboxcategories_all>
+[image: Customize]
+Customize your inbox
+
+If you see a message you want in a different category, you can move it
+there. On mobile devices, you can even choose which categories create a
+notification. More customization tips
+<https://support.google.com/mail/?hl=en&p=inboxcategories_all>
+
+
+
+To learn more about Gmail\'s inbox, check out the help center
+<https://support.google.com/mail/?hl=en&p=inboxcategories_all> or watch the
+video <https://www.youtube.com/watch?v=CFf7dlewJus&amp>.
+
+
+[image: Gmail icon]Happy emailing,
+The Gmail Team
+© 2015 Google Inc. 1600 Amphitheatre Parkway, Mountain View, CA 94043
+";}',
+    9 => 's:1367:" Stay more organized with Gmail\'s inbox
+[image: Google]
+
+Hi Andy
+
+Gmail\'s inbox puts you in control
+
+[image: Inbox video] <https://www.youtube.com/watch?v=CFf7dlewJus>
+Meet the inbox
+
+Gmail\'s inbox sorts your email into categories so you can see what\'s new at
+a glance, decide which emails you want to read when and view similar types
+of emails together. Watch the video
+<https://www.youtube.com/watch?v=CFf7dlewJus>
+[image: Social tab]
+Choose your categories
+
+The Social and Promotions categories are on by default. Add categories like
+Updates and Forums or remove categories to have those emails show up in
+your Primary inbox. Learn how to choose categories
+<https://support.google.com/mail/?hl=en&p=inboxcategories_all>
+[image: Customize]
+Customize your inbox
+
+If you see a message you want in a different category, you can move it
+there. On mobile devices, you can even choose which categories create a
+notification. More customization tips
+<https://support.google.com/mail/?hl=en&p=inboxcategories_all>
+
+
+
+To learn more about Gmail\'s inbox, check out the help center
+<https://support.google.com/mail/?hl=en&p=inboxcategories_all> or watch the
+video <https://www.youtube.com/watch?v=CFf7dlewJus&amp>.
+
+
+[image: Gmail icon]Happy emailing,
+The Gmail Team
+© 2015 Google Inc. 1600 Amphitheatre Parkway, Mountain View, CA 94043
+";',
+    10 => 'Stay more organized with Gmail\'s inbox',
+    11 => 'mail-noreply@google.com',
+    12 => 'lenderplatform@gmail.com',
+    13 => '14efdfb299dcb4fc',
+    14 => '',
+    15 => '1',
+    16 => '2015-08-26 01:40:41',
+    17 => '2015-08-26 01:40:41',
+  ),
+  3 => 
+  array (
+    0 => '00000',
+    1 => NULL,
+    2 => NULL,
+  ),
+  4 => '15',
+)
+1:40:41am::array (
+  0 => 'PDO exec:',
+  1 => 
+  PDOStatement::__set_state(array(
+     'queryString' => 'SELECT id FROM email_messages WHERE msg_uid = ?',
+  )),
+  2 => 
+  array (
+    0 => '14efdfb2979593ab',
+  ),
+  3 => 
+  array (
+    0 => '00000',
+    1 => NULL,
+    2 => NULL,
+  ),
+  4 => false,
+)
+1:40:42am::array (
+  0 => 'PDO exec:',
+  1 => 
+  PDOStatement::__set_state(array(
+     'queryString' => 'SELECT id, client_id FROM users WHERE username = ?',
+  )),
+  2 => 
+  array (
+    0 => 'mail-noreply@google.com',
+  ),
+  3 => 
+  array (
+    0 => '00000',
+    1 => NULL,
+    2 => NULL,
+  ),
+  4 => false,
+)
+1:40:42am::array (
+  0 => 'PDO exec:',
+  1 => 
+  PDOStatement::__set_state(array(
+     'queryString' => 'INSERT into email_messages(client_id, client_object_id, user_id, order_id, note_id, is_spam,assigned_to_user_id, email_status_id, content_raw, content_filtered,subject, from_address, to_address, msg_uid, cc, active, created, modified) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?, ?)',
+  )),
+  2 => 
+  array (
+    0 => '1',
+    1 => '1',
+    2 => '',
+    3 => '',
+    4 => '',
+    5 => '0',
+    6 => '',
+    7 => '1',
+    8 => 'O:8:"stdClass":2:{s:6:"header";a:9:{i:0;O:38:"Google_Service_Gmail_MessagePartHeader":5:{s:25:"' . "\0" . '*' . "\0" . 'internal_gapi_mappings";a:0:{}s:4:"name";s:12:"MIME-Version";s:5:"value";s:3:"1.0";s:12:"' . "\0" . '*' . "\0" . 'modelData";a:0:{}s:12:"' . "\0" . '*' . "\0" . 'processed";a:0:{}}i:1;O:38:"Google_Service_Gmail_MessagePartHeader":5:{s:25:"' . "\0" . '*' . "\0" . 'internal_gapi_mappings";a:0:{}s:4:"name";s:20:"x-no-auto-attachment";s:5:"value";s:1:"1";s:12:"' . "\0" . '*' . "\0" . 'modelData";a:0:{}s:12:"' . "\0" . '*' . "\0" . 'processed";a:0:{}}i:2;O:38:"Google_Service_Gmail_MessagePartHeader":5:{s:25:"' . "\0" . '*' . "\0" . 'internal_gapi_mappings";a:0:{}s:4:"name";s:8:"Received";s:5:"value";s:54:"by 10.112.131.71; Wed, 5 Aug 2015 06:09:32 -0700 (PDT)";s:12:"' . "\0" . '*' . "\0" . 'modelData";a:0:{}s:12:"' . "\0" . '*' . "\0" . 'processed";a:0:{}}i:3;O:38:"Google_Service_Gmail_MessagePartHeader":5:{s:25:"' . "\0" . '*' . "\0" . 'internal_gapi_mappings";a:0:{}s:4:"name";s:4:"Date";s:5:"value";s:30:"Wed, 5 Aug 2015 06:09:32 -0700";s:12:"' . "\0" . '*' . "\0" . 'modelData";a:0:{}s:12:"' . "\0" . '*' . "\0" . 'processed";a:0:{}}i:4;O:38:"Google_Service_Gmail_MessagePartHeader":5:{s:25:"' . "\0" . '*' . "\0" . 'internal_gapi_mappings";a:0:{}s:4:"name";s:10:"Message-ID";s:5:"value";s:68:"<CABL-sXkH7QR=NiDSoyFL-=z_ZzUVSh5ht7A6-hRNrnkkVtQkQg@mail.gmail.com>";s:12:"' . "\0" . '*' . "\0" . 'modelData";a:0:{}s:12:"' . "\0" . '*' . "\0" . 'processed";a:0:{}}i:5;O:38:"Google_Service_Gmail_MessagePartHeader":5:{s:25:"' . "\0" . '*' . "\0" . 'internal_gapi_mappings";a:0:{}s:4:"name";s:7:"Subject";s:5:"value";s:35:"The best of Gmail, wherever you are";s:12:"' . "\0" . '*' . "\0" . 'modelData";a:0:{}s:12:"' . "\0" . '*' . "\0" . 'processed";a:0:{}}i:6;O:38:"Google_Service_Gmail_MessagePartHeader":5:{s:25:"' . "\0" . '*' . "\0" . 'internal_gapi_mappings";a:0:{}s:4:"name";s:4:"From";s:5:"value";s:36:"Gmail Team <mail-noreply@google.com>";s:12:"' . "\0" . '*' . "\0" . 'modelData";a:0:{}s:12:"' . "\0" . '*' . "\0" . 'processed";a:0:{}}i:7;O:38:"Google_Service_Gmail_MessagePartHeader":5:{s:25:"' . "\0" . '*' . "\0" . 'internal_gapi_mappings";a:0:{}s:4:"name";s:2:"To";s:5:"value";s:37:"Andy Sharp <lenderplatform@gmail.com>";s:12:"' . "\0" . '*' . "\0" . 'modelData";a:0:{}s:12:"' . "\0" . '*' . "\0" . 'processed";a:0:{}}i:8;O:38:"Google_Service_Gmail_MessagePartHeader":5:{s:25:"' . "\0" . '*' . "\0" . 'internal_gapi_mappings";a:0:{}s:4:"name";s:12:"Content-Type";s:5:"value";s:60:"multipart/alternative; boundary=f46d04089131149a86051c901d24";s:12:"' . "\0" . '*' . "\0" . 'modelData";a:0:{}s:12:"' . "\0" . '*' . "\0" . 'processed";a:0:{}}}s:4:"body";s:644:" The best of Gmail, wherever you are
+[image: Google]
+[image: Nexus 4 with Gmail]
+
+Hi Andy
+
+
+Get the official Gmail app
+
+The best features of Gmail are only available on your phone and tablet with
+the official Gmail app. Download the app or go to gmail.com
+<https://www.gmail.com/> on your computer or mobile device to get started.
+
+[image: Google Play]
+<https://play.google.com/store/apps/details?id=com.google.android.gm>  [image:
+App Store] <https://itunes.apple.com/en/app/gmail/id422689480?mt=8>
+
+
+[image: Gmail icon]Happy emailing,
+The Gmail Team
+© 2015 Google Inc. 1600 Amphitheatre Parkway, Mountain View, CA 94043
+";}',
+    9 => 's:644:" The best of Gmail, wherever you are
+[image: Google]
+[image: Nexus 4 with Gmail]
+
+Hi Andy
+
+
+Get the official Gmail app
+
+The best features of Gmail are only available on your phone and tablet with
+the official Gmail app. Download the app or go to gmail.com
+<https://www.gmail.com/> on your computer or mobile device to get started.
+
+[image: Google Play]
+<https://play.google.com/store/apps/details?id=com.google.android.gm>  [image:
+App Store] <https://itunes.apple.com/en/app/gmail/id422689480?mt=8>
+
+
+[image: Gmail icon]Happy emailing,
+The Gmail Team
+© 2015 Google Inc. 1600 Amphitheatre Parkway, Mountain View, CA 94043
+";',
+    10 => 'The best of Gmail, wherever you are',
+    11 => 'mail-noreply@google.com',
+    12 => 'lenderplatform@gmail.com',
+    13 => '14efdfb2979593ab',
+    14 => '',
+    15 => '1',
+    16 => '2015-08-26 01:40:42',
+    17 => '2015-08-26 01:40:42',
+  ),
+  3 => 
+  array (
+    0 => '00000',
+    1 => NULL,
+    2 => NULL,
+  ),
+  4 => '16',
+)
+1:40:42am::array (
+  0 => 'PDO exec:',
+  1 => 
+  PDOStatement::__set_state(array(
+     'queryString' => 'SELECT id FROM email_messages WHERE msg_uid = ?',
+  )),
+  2 => 
+  array (
+    0 => '14efdfb2667ac680',
+  ),
+  3 => 
+  array (
+    0 => '00000',
+    1 => NULL,
+    2 => NULL,
+  ),
+  4 => false,
+)
+1:40:43am::array (
+  0 => 'PDO exec:',
+  1 => 
+  PDOStatement::__set_state(array(
+     'queryString' => 'SELECT id, client_id FROM users WHERE username = ?',
+  )),
+  2 => 
+  array (
+    0 => 'mail-noreply@google.com',
+  ),
+  3 => 
+  array (
+    0 => '00000',
+    1 => NULL,
+    2 => NULL,
+  ),
+  4 => false,
+)
+1:40:43am::array (
+  0 => 'PDO exec:',
+  1 => 
+  PDOStatement::__set_state(array(
+     'queryString' => 'INSERT into email_messages(client_id, client_object_id, user_id, order_id, note_id, is_spam,assigned_to_user_id, email_status_id, content_raw, content_filtered,subject, from_address, to_address, msg_uid, cc, active, created, modified) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?, ?)',
+  )),
+  2 => 
+  array (
+    0 => '1',
+    1 => '1',
+    2 => '',
+    3 => '',
+    4 => '',
+    5 => '0',
+    6 => '',
+    7 => '1',
+    8 => 'O:8:"stdClass":2:{s:6:"header";a:9:{i:0;O:38:"Google_Service_Gmail_MessagePartHeader":5:{s:25:"' . "\0" . '*' . "\0" . 'internal_gapi_mappings";a:0:{}s:4:"name";s:12:"MIME-Version";s:5:"value";s:3:"1.0";s:12:"' . "\0" . '*' . "\0" . 'modelData";a:0:{}s:12:"' . "\0" . '*' . "\0" . 'processed";a:0:{}}i:1;O:38:"Google_Service_Gmail_MessagePartHeader":5:{s:25:"' . "\0" . '*' . "\0" . 'internal_gapi_mappings";a:0:{}s:4:"name";s:20:"x-no-auto-attachment";s:5:"value";s:1:"1";s:12:"' . "\0" . '*' . "\0" . 'modelData";a:0:{}s:12:"' . "\0" . '*' . "\0" . 'processed";a:0:{}}i:2;O:38:"Google_Service_Gmail_MessagePartHeader":5:{s:25:"' . "\0" . '*' . "\0" . 'internal_gapi_mappings";a:0:{}s:4:"name";s:8:"Received";s:5:"value";s:54:"by 10.112.131.71; Wed, 5 Aug 2015 06:09:31 -0700 (PDT)";s:12:"' . "\0" . '*' . "\0" . 'modelData";a:0:{}s:12:"' . "\0" . '*' . "\0" . 'processed";a:0:{}}i:3;O:38:"Google_Service_Gmail_MessagePartHeader":5:{s:25:"' . "\0" . '*' . "\0" . 'internal_gapi_mappings";a:0:{}s:4:"name";s:4:"Date";s:5:"value";s:30:"Wed, 5 Aug 2015 06:09:31 -0700";s:12:"' . "\0" . '*' . "\0" . 'modelData";a:0:{}s:12:"' . "\0" . '*' . "\0" . 'processed";a:0:{}}i:4;O:38:"Google_Service_Gmail_MessagePartHeader":5:{s:25:"' . "\0" . '*' . "\0" . 'internal_gapi_mappings";a:0:{}s:4:"name";s:10:"Message-ID";s:5:"value";s:68:"<CABL-sXkjG7CQn_FmLSFZmgxgGbDYqS+-Dz9nTYsBa-KGqg+wVg@mail.gmail.com>";s:12:"' . "\0" . '*' . "\0" . 'modelData";a:0:{}s:12:"' . "\0" . '*' . "\0" . 'processed";a:0:{}}i:5;O:38:"Google_Service_Gmail_MessagePartHeader":5:{s:25:"' . "\0" . '*' . "\0" . 'internal_gapi_mappings";a:0:{}s:4:"name";s:7:"Subject";s:5:"value";s:39:"Three tips to get the most out of Gmail";s:12:"' . "\0" . '*' . "\0" . 'modelData";a:0:{}s:12:"' . "\0" . '*' . "\0" . 'processed";a:0:{}}i:6;O:38:"Google_Service_Gmail_MessagePartHeader":5:{s:25:"' . "\0" . '*' . "\0" . 'internal_gapi_mappings";a:0:{}s:4:"name";s:4:"From";s:5:"value";s:36:"Gmail Team <mail-noreply@google.com>";s:12:"' . "\0" . '*' . "\0" . 'modelData";a:0:{}s:12:"' . "\0" . '*' . "\0" . 'processed";a:0:{}}i:7;O:38:"Google_Service_Gmail_MessagePartHeader":5:{s:25:"' . "\0" . '*' . "\0" . 'internal_gapi_mappings";a:0:{}s:4:"name";s:2:"To";s:5:"value";s:37:"Andy Sharp <lenderplatform@gmail.com>";s:12:"' . "\0" . '*' . "\0" . 'modelData";a:0:{}s:12:"' . "\0" . '*' . "\0" . 'processed";a:0:{}}i:8;O:38:"Google_Service_Gmail_MessagePartHeader":5:{s:25:"' . "\0" . '*' . "\0" . 'internal_gapi_mappings";a:0:{}s:4:"name";s:12:"Content-Type";s:5:"value";s:60:"multipart/alternative; boundary=089e0149410a0ea1e2051c901d5f";s:12:"' . "\0" . '*' . "\0" . 'modelData";a:0:{}s:12:"' . "\0" . '*' . "\0" . 'processed";a:0:{}}}s:4:"body";s:1138:" Three tips to get the most out of Gmail
+[image: Google]
+
+Hi Andy
+
+Tips to get the most out of Gmail
+
+[image: Contacts]
+Bring your contacts and mail into Gmail
+
+On your computer, you can copy your contacts and emails from your old email
+account to make the transition to Gmail even better. Learn how
+<https://support.google.com/mail/answer/164640?hl=en&ref_topic=1669014>.
+[image: Search]
+Find what you need fast
+
+With the power of Google Search right in your inbox, it\'s easy to sort your
+email. Find what you\'re looking for with predictions based on email
+content, past searches and contacts.
+[image: Search]
+Much more than email
+
+You can send text messages and make video calls with Hangouts
+<https://www.google.com/intl/en/hangouts/> right from Gmail. To use this
+feature on mobile, download the Hangouts app for Android
+<https://play.google.com/store/apps/details?id=com.google.android.talk&hl=en>
+and Apple <https://itunes.apple.com/en/app/hangouts/id643496868?mt=8>
+devices.
+
+
+[image: Gmail icon]Happy emailing,
+The Gmail Team
+© 2015 Google Inc. 1600 Amphitheatre Parkway, Mountain View, CA 94043
+";}',
+    9 => 's:1138:" Three tips to get the most out of Gmail
+[image: Google]
+
+Hi Andy
+
+Tips to get the most out of Gmail
+
+[image: Contacts]
+Bring your contacts and mail into Gmail
+
+On your computer, you can copy your contacts and emails from your old email
+account to make the transition to Gmail even better. Learn how
+<https://support.google.com/mail/answer/164640?hl=en&ref_topic=1669014>.
+[image: Search]
+Find what you need fast
+
+With the power of Google Search right in your inbox, it\'s easy to sort your
+email. Find what you\'re looking for with predictions based on email
+content, past searches and contacts.
+[image: Search]
+Much more than email
+
+You can send text messages and make video calls with Hangouts
+<https://www.google.com/intl/en/hangouts/> right from Gmail. To use this
+feature on mobile, download the Hangouts app for Android
+<https://play.google.com/store/apps/details?id=com.google.android.talk&hl=en>
+and Apple <https://itunes.apple.com/en/app/hangouts/id643496868?mt=8>
+devices.
+
+
+[image: Gmail icon]Happy emailing,
+The Gmail Team
+© 2015 Google Inc. 1600 Amphitheatre Parkway, Mountain View, CA 94043
+";',
+    10 => 'Three tips to get the most out of Gmail',
+    11 => 'mail-noreply@google.com',
+    12 => 'lenderplatform@gmail.com',
+    13 => '14efdfb2667ac680',
+    14 => '',
+    15 => '1',
+    16 => '2015-08-26 01:40:43',
+    17 => '2015-08-26 01:40:43',
+  ),
+  3 => 
+  array (
+    0 => '00000',
+    1 => NULL,
+    2 => NULL,
+  ),
+  4 => '17',
+)

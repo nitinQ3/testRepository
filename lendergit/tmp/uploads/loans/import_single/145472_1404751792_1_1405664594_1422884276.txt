@@ -1,0 +1,47 @@
+EH 86993 Holy Rosary Credit Union 20140707   123456789
+TH T100099-002123456789
+TPI1.00 01                              N
+0001  3.20  
+00AYN
+01A01                                                                                                              145472                17000.003.49   36 05                                                                                                                                                                
+02A289 Walnut Street                                 Rochester                          NH03867    1                                                                                    1974
+PAI                                                              
+02B  15Home Equity                                                                     1                                                            1        
+03ABW003226039Charles                            R                                  Abraham                                603332245880   M0 Y00640842219330408acharliekay@gmail.com                                                           
+03AQZ006408422Kaaren                             J                                  Abraham                                603332245871   M0 Y00322603919420425                                                                                
+03C003226039ZG289 Walnut Street                                 Rochester                          NH03867    O36  United States                                     
+03C003226039BH289 Walnut Street                                 Rochester                          NH03867    O36  United States                                     
+03C006408422ZG289 Walnut Street                                 Rochester                          NH03867    O36  United States                                     
+03C006408422BH289 Walnut Street                                 Rochester                          NH03867    O36  United States                                     
+05H003226039101          57.25
+05H003226039114         304.00
+05H003226039122          92.00
+05H003226039222         498.06
+05H003226039126         339.00
+05I00322603942        1436.00
+05I00640842241          64.73
+05I00640842242         865.00
+06G003226039289 Walnut Street                  Rochester                          NH03867    H14      142000.00       12373.00           0.00         431.00         361.25           0.00YY1                
+06L003226039M HOLYR/UAS                                                                                                           269090204                              339.0033        10854.00Y1 NN  
+06L003226039M HOLYR/UAS                                                                                                           269090205                               92.0017         1519.00Y1 NN  
+06L003226039R DISCOVER FIN                                                                                                        601120897368                            35.0035         1206.00N  NN  
+06L003226039R CHASE                                                                                                               414720213178                            25.008           177.00N  NN  
+06L003226039R CHASE                                                                                                               414720210888                            25.003            69.00N  NN  
+07A                                                    12373.00          35.86           0.00           0.00           0.00           0.00           0.00           0.00
+08A003226039NNNNNNNNN01YY125
+08A006408422NNNNNNNNN01YY125
+10A003226039N2                              M
+10A006408422N2                              F
+10BI                                                            20130910          Holy Rosary Credit Union           133 Brock Street                   P.O. Box 2078                      Rochester                          NH03866    
+10R0032260395 
+10R0064084225 
+00070 3.20 
+99B F1      142000.00       02                                                                                                                   
+ADSLoanOriginatorID                                                                     
+ADSLoanOriginationCompanyID           740044                                            
+00011 3.20 
+LNC2 01                 N                                Y2013101020131201          0.370NN
+PID3 Year  Fixed Home Equity     HF03HRCU            
+PCH36 N01Y   
+TT 123456789
+ET 123456789

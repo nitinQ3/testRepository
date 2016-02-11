@@ -1,0 +1,306 @@
+2:29:58am:::1:array (
+  0 => 'PDO exec:',
+  1 => 
+  PDOStatement::__set_state(array(
+     'queryString' => 'INSERT into emails(client_id, client_object_id, user_id, order_id, note_id, is_spam,assigned_to_user_id, email_status_id, content_raw, content_filtered,subject, from_address, to_address, cc, active, created, modified) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)',
+  )),
+  2 => 
+  array (
+    0 => '1',
+    1 => '1',
+    2 => '',
+    3 => '',
+    4 => '',
+    5 => '0',
+    6 => '',
+    7 => '1',
+    8 => '',
+    9 => '',
+    10 => 'Three tips to get the most out of Gmail',
+    11 => '',
+    12 => 'itq32015@gmail.com',
+    13 => '',
+    14 => '1',
+    15 => '2015-08-04 02:29:58',
+    16 => '2015-08-04 02:29:58',
+  ),
+  3 => 
+  array (
+    0 => '00000',
+    1 => NULL,
+    2 => NULL,
+  ),
+  4 => '1',
+)
+2:29:58am:::1:array (
+  0 => 'PDO exec:',
+  1 => 
+  PDOStatement::__set_state(array(
+     'queryString' => 'INSERT into emails(client_id, client_object_id, user_id, order_id, note_id, is_spam,assigned_to_user_id, email_status_id, content_raw, content_filtered,subject, from_address, to_address, cc, active, created, modified) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)',
+  )),
+  2 => 
+  array (
+    0 => '1',
+    1 => '1',
+    2 => '',
+    3 => '',
+    4 => '',
+    5 => '0',
+    6 => '',
+    7 => '1',
+    8 => '',
+    9 => '',
+    10 => 'The best of Gmail, wherever you are',
+    11 => '',
+    12 => 'itq32015@gmail.com',
+    13 => '',
+    14 => '1',
+    15 => '2015-08-04 02:29:58',
+    16 => '2015-08-04 02:29:58',
+  ),
+  3 => 
+  array (
+    0 => '00000',
+    1 => NULL,
+    2 => NULL,
+  ),
+  4 => '2',
+)
+2:29:59am:::1:array (
+  0 => 'PDO exec:',
+  1 => 
+  PDOStatement::__set_state(array(
+     'queryString' => 'INSERT into emails(client_id, client_object_id, user_id, order_id, note_id, is_spam,assigned_to_user_id, email_status_id, content_raw, content_filtered,subject, from_address, to_address, cc, active, created, modified) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)',
+  )),
+  2 => 
+  array (
+    0 => '1',
+    1 => '1',
+    2 => '',
+    3 => '',
+    4 => '',
+    5 => '0',
+    6 => '',
+    7 => '1',
+    8 => '',
+    9 => '',
+    10 => 'Google Account: access for less secure apps has been enabled',
+    11 => '',
+    12 => 'itq32015@gmail.com',
+    13 => '',
+    14 => '1',
+    15 => '2015-08-04 02:29:59',
+    16 => '2015-08-04 02:29:59',
+  ),
+  3 => 
+  array (
+    0 => '00000',
+    1 => NULL,
+    2 => NULL,
+  ),
+  4 => '3',
+)
+2:29:59am:::1:array (
+  0 => 'PDO exec:',
+  1 => 
+  PDOStatement::__set_state(array(
+     'queryString' => 'INSERT into emails(client_id, client_object_id, user_id, order_id, note_id, is_spam,assigned_to_user_id, email_status_id, content_raw, content_filtered,subject, from_address, to_address, cc, active, created, modified) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)',
+  )),
+  2 => 
+  array (
+    0 => '1',
+    1 => '1',
+    2 => '',
+    3 => '',
+    4 => '',
+    5 => '0',
+    6 => '',
+    7 => '1',
+    8 => '',
+    9 => '',
+    10 => 'Order Number (1000002)',
+    11 => '',
+    12 => 'itq32015@gmail.com',
+    13 => '',
+    14 => '1',
+    15 => '2015-08-04 02:29:59',
+    16 => '2015-08-04 02:29:59',
+  ),
+  3 => 
+  array (
+    0 => '00000',
+    1 => NULL,
+    2 => NULL,
+  ),
+  4 => '4',
+)
+2:30:00am:::1:array (
+  0 => 'PDO exec:',
+  1 => 
+  PDOStatement::__set_state(array(
+     'queryString' => 'INSERT into emails(client_id, client_object_id, user_id, order_id, note_id, is_spam,assigned_to_user_id, email_status_id, content_raw, content_filtered,subject, from_address, to_address, cc, active, created, modified) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)',
+  )),
+  2 => 
+  array (
+    0 => '1',
+    1 => '1',
+    2 => '',
+    3 => '',
+    4 => '',
+    5 => '0',
+    6 => '',
+    7 => '1',
+    8 => '',
+    9 => '',
+    10 => 'Order Number : 1000001',
+    11 => '',
+    12 => 'itq32015@gmail.com',
+    13 => '',
+    14 => '1',
+    15 => '2015-08-04 02:30:00',
+    16 => '2015-08-04 02:30:00',
+  ),
+  3 => 
+  array (
+    0 => '00000',
+    1 => NULL,
+    2 => NULL,
+  ),
+  4 => '5',
+)
+2:30:00am:::1:array (
+  0 => 'PDO exec:',
+  1 => 
+  PDOStatement::__set_state(array(
+     'queryString' => 'INSERT into emails(client_id, client_object_id, user_id, order_id, note_id, is_spam,assigned_to_user_id, email_status_id, content_raw, content_filtered,subject, from_address, to_address, cc, active, created, modified) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)',
+  )),
+  2 => 
+  array (
+    0 => '1',
+    1 => '1',
+    2 => '',
+    3 => '',
+    4 => '',
+    5 => '0',
+    6 => '',
+    7 => '1',
+    8 => '',
+    9 => '',
+    10 => 'Stay more organized with Gmail\'s inbox',
+    11 => '',
+    12 => 'itq32015@gmail.com',
+    13 => '',
+    14 => '1',
+    15 => '2015-08-04 02:30:00',
+    16 => '2015-08-04 02:30:00',
+  ),
+  3 => 
+  array (
+    0 => '00000',
+    1 => NULL,
+    2 => NULL,
+  ),
+  4 => '6',
+)
+2:30:00am:::1:array (
+  0 => 'PDO exec:',
+  1 => 
+  PDOStatement::__set_state(array(
+     'queryString' => 'INSERT into emails(client_id, client_object_id, user_id, order_id, note_id, is_spam,assigned_to_user_id, email_status_id, content_raw, content_filtered,subject, from_address, to_address, cc, active, created, modified) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)',
+  )),
+  2 => 
+  array (
+    0 => '1',
+    1 => '1',
+    2 => '',
+    3 => '',
+    4 => '',
+    5 => '0',
+    6 => '',
+    7 => '1',
+    8 => '',
+    9 => '',
+    10 => NULL,
+    11 => '',
+    12 => '',
+    13 => '',
+    14 => '1',
+    15 => '2015-08-04 02:30:00',
+    16 => '2015-08-04 02:30:00',
+  ),
+  3 => 
+  array (
+    0 => '00000',
+    1 => NULL,
+    2 => NULL,
+  ),
+  4 => '7',
+)
+2:30:00am:::1:array (
+  0 => 'PDO exec:',
+  1 => 
+  PDOStatement::__set_state(array(
+     'queryString' => 'INSERT into emails(client_id, client_object_id, user_id, order_id, note_id, is_spam,assigned_to_user_id, email_status_id, content_raw, content_filtered,subject, from_address, to_address, cc, active, created, modified) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)',
+  )),
+  2 => 
+  array (
+    0 => '1',
+    1 => '1',
+    2 => '',
+    3 => '',
+    4 => '',
+    5 => '0',
+    6 => '',
+    7 => '1',
+    8 => '',
+    9 => '',
+    10 => NULL,
+    11 => '',
+    12 => '',
+    13 => '',
+    14 => '1',
+    15 => '2015-08-04 02:30:00',
+    16 => '2015-08-04 02:30:00',
+  ),
+  3 => 
+  array (
+    0 => '00000',
+    1 => NULL,
+    2 => NULL,
+  ),
+  4 => '8',
+)
+2:30:00am:::1:array (
+  0 => 'PDO exec:',
+  1 => 
+  PDOStatement::__set_state(array(
+     'queryString' => 'INSERT into emails(client_id, client_object_id, user_id, order_id, note_id, is_spam,assigned_to_user_id, email_status_id, content_raw, content_filtered,subject, from_address, to_address, cc, active, created, modified) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)',
+  )),
+  2 => 
+  array (
+    0 => '1',
+    1 => '1',
+    2 => '',
+    3 => '',
+    4 => '',
+    5 => '0',
+    6 => '',
+    7 => '1',
+    8 => '',
+    9 => '',
+    10 => NULL,
+    11 => '',
+    12 => '',
+    13 => '',
+    14 => '1',
+    15 => '2015-08-04 02:30:00',
+    16 => '2015-08-04 02:30:00',
+  ),
+  3 => 
+  array (
+    0 => '00000',
+    1 => NULL,
+    2 => NULL,
+  ),
+  4 => '9',
+)
